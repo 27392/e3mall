@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../e3-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-manager/e3-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/../e3-manager/e3-manager-web" />
   </component>
   <component name="MavenProjectsManager">
@@ -9,6 +11,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-common/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/pom.xml" />
       </list>
     </option>
   </component>

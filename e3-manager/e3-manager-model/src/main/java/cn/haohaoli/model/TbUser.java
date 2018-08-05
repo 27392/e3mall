@@ -1,8 +1,9 @@
 package cn.haohaoli.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbUser {
+public class TbUser implements Serializable {
     private Long id;
 
     private String username;
