@@ -1,20 +1,569 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6398c42f-a2f7-4e18-915a-86821fca1439" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/content-add.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/content-category.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/content-edit.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/content.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/file-upload.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/index-item.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/index.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/item-add.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/item-edit.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/item-list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/item-param-add.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/item-param-list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/login.jsp" />
+    <list default="true" id="6398c42f-a2f7-4e18-915a-86821fca1439" name="Default" comment="添加管理后台页面">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/css/default.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/css/e3.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/changelog.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/easyloader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/jquery.easyui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/licence_gpl.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-af.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-am.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-ar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-bg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-ca.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-cs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-cz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-da.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-el.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-jp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-pl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-pt_BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-sv_SE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-tr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_TW.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.accordion.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.calendar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.combo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.combobox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.combogrid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.combotree.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.datagrid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.datebox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.datetimebox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.datetimespinner.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.draggable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.droppable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.filebox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.layout.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.linkbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.menu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.menubutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.messager.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.numberbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.numberspinner.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.pagination.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.panel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.progressbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.propertygrid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.resizable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.searchbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.slider.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.spinner.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.splitbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.tabs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.textbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.timespinner.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.tooltip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.tree.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.treegrid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.validatebox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/plugins/jquery.window.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/easyloader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.accordion.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.calendar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.combobox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.datebox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.draggable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.droppable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.linkbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.menu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.progressbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.propertygrid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.resizable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.slider.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.tabs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/src/jquery.window.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/calendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/combo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/combobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/datebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/easyui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/filebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/accordion_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/calendar_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/combo_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/datagrid_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/datebox_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/layout_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/linkbutton_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/menu_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/messager_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/pagination_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/panel_tools.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/searchbox_button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/slider_handle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/spinner_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/tabs_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/tree_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/images/validatebox_warning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/layout.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/linkbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/messager.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/numberbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/panel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/progressbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/propertygrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/searchbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/textbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/validatebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/black/window.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/calendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/combo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/combobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/datebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/easyui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/filebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/accordion_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/calendar_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/combo_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/datagrid_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/datebox_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/layout_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/linkbutton_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/menu_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/messager_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/pagination_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/panel_tools.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/searchbox_button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/slider_handle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/spinner_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/tabs_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/tree_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/images/validatebox_warning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/layout.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/linkbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/messager.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/numberbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/panel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/progressbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/propertygrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/searchbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/textbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/validatebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/bootstrap/window.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/color.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/calendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/combo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/combobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/datebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/easyui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/filebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/accordion_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/calendar_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/combo_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/datagrid_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/datebox_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/layout_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/linkbutton_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/menu_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/messager_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/pagination_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/panel_tools.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/searchbox_button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/slider_handle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/spinner_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/tabs_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/tree_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/images/validatebox_warning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/layout.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/linkbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/messager.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/numberbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/panel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/progressbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/propertygrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/searchbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/textbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/validatebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/default/window.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/calendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/combo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/combobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/datebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/easyui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/filebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/accordion_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/calendar_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/combo_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/datagrid_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/datebox_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/layout_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/linkbutton_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/menu_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/messager_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/pagination_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/panel_tools.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/searchbox_button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/slider_handle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/spinner_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/tabs_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/tree_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/images/validatebox_warning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/layout.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/linkbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/messager.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/numberbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/panel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/progressbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/propertygrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/searchbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/textbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/validatebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/gray/window.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/back.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/cancel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/clear.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/cut.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/edit_add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/edit_remove.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/filesave.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/filter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/help.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/large_chart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/large_clipart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/large_picture.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/large_shapes.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/large_smartart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/lock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/man.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/mini_add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/mini_edit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/mini_refresh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/no.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/ok.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/pencil.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/print.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/redo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/reload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/search.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/sum.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/tip.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/icons/undo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/calendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/combo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/combobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/datebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/easyui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/filebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/accordion_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/calendar_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/combo_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/datagrid_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/datebox_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/layout_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/linkbutton_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/menu_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/messager_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/pagination_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/panel_tools.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/searchbox_button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/slider_handle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/spinner_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/tabs_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/tree_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/images/validatebox_warning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/layout.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/linkbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/messager.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/numberbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/panel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/progressbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/propertygrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/searchbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/textbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/validatebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/themes/metro/window.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/kindeditor-all-min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/kindeditor-all.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/kindeditor-min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/kindeditor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/lang/ar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/lang/en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/lang/ko.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/lang/zh_CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/lang/zh_TW.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/license.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/anchor/anchor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/autoheight/autoheight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/baidumap/baidumap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/baidumap/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/baidumap/map.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/clearhtml/clearhtml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/code/code.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/code/prettify.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/code/prettify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/emoticons.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/1.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/10.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/100.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/101.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/102.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/103.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/104.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/105.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/106.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/107.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/108.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/109.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/11.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/110.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/111.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/112.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/113.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/114.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/115.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/116.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/117.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/118.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/119.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/12.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/120.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/121.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/122.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/123.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/124.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/125.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/126.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/127.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/128.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/129.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/13.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/130.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/131.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/132.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/133.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/134.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/14.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/15.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/16.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/17.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/18.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/19.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/20.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/21.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/22.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/23.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/24.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/25.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/26.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/27.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/28.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/29.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/3.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/30.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/31.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/32.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/33.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/34.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/35.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/36.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/37.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/38.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/39.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/4.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/40.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/41.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/42.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/43.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/44.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/45.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/46.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/47.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/48.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/49.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/5.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/50.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/51.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/52.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/53.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/54.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/55.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/56.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/57.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/58.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/59.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/6.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/60.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/61.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/62.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/63.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/64.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/65.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/66.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/67.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/68.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/69.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/7.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/70.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/71.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/72.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/73.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/74.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/75.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/76.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/77.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/78.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/79.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/8.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/80.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/81.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/82.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/83.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/84.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/85.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/86.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/87.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/88.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/89.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/9.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/90.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/91.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/92.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/93.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/94.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/95.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/96.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/97.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/98.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/99.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/static.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/filemanager/filemanager.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/filemanager/images/file-16.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/filemanager/images/file-64.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/filemanager/images/folder-16.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/filemanager/images/folder-64.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/filemanager/images/go-up.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/flash/flash.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/image/image.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/image/images/align_left.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/image/images/align_right.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/image/images/align_top.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/image/images/refresh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/insertfile/insertfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/lineheight/lineheight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/link/link.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/map/map.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/map/map.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/media/media.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/multiimage/images/image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/multiimage/images/select-files-en.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/multiimage/images/select-files-zh_CN.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/multiimage/multiimage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/pagebreak/pagebreak.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/plainpaste/plainpaste.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/preview/preview.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/quickformat/quickformat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/table/table.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/template/html/1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/template/html/2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/template/html/3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/template/template.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/plugins/wordpaste/wordpaste.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/themes/common/anchor.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/themes/common/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/themes/common/flash.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/themes/common/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/themes/common/media.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/themes/common/rm.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/themes/default/background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/themes/default/default.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/themes/default/default.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/themes/qq/editor.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/themes/qq/qq.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/kindeditor-4.1.10/themes/simple/simple.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,7 +601,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../e3-manager/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="0">
               <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
@@ -74,16 +623,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/java/cn/haohaoli/service/impl/ItemServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -295,10 +834,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="192" />
-    <option name="y" value="320" />
-    <option name="width" value="1401" />
-    <option name="height" value="1102" />
+    <option name="x" value="224" />
+    <option name="y" value="224" />
+    <option name="width" value="1600" />
+    <option name="height" value="710" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -377,6 +916,65 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery-easyui-1.4.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="kindeditor-4.1.10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="kindeditor-4.1.10" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -628,15 +1226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1533483958114</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加管理后台页面">
+      <created>1533484134934</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533484134934</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35650000" />
+    <option name="totallyTimeSpent" value="36001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
@@ -656,10 +1260,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69611305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900944" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5470588" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -734,14 +1338,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="剥离出manager-web 使用dubbo远程调用" />
     <MESSAGE value="调整结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整结构" />
+    <MESSAGE value="添加管理后台页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加管理后台页面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/main.iml" />
     <entry file="file://$PROJECT_DIR$/../e3-manager-web/e3-manager-web.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -889,7 +1493,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3-manager/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="0">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
@@ -1102,6 +1706,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/jquery-easyui-1.4.1/changelog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3075">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding />
         </state>
       </provider>
