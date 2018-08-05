@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6398c42f-a2f7-4e18-915a-86821fca1439" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-service/target/classes/cn/haohaoli/service/impl/ItemServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/content-add.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/content-category.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/content-edit.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/content.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/file-upload.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/index-item.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/item-add.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/item-edit.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/item-list.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/item-param-add.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/item-param-list.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/login.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -59,26 +69,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="e3-manager-model.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-model/e3-manager-model.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-dao/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../e3-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,12 +111,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-model/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1476538708000" expanded="true" signature="1416:1426" ph="..." />
+                <marker date="1476538708000" expanded="true" signature="1838:1878" ph="..." />
+                <marker date="1476538708000" expanded="true" signature="3177:3194" ph="..." />
+                <marker date="1476538708000" expanded="true" signature="3264:3281" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -316,7 +331,52 @@
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
               <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -339,21 +399,21 @@
     <property name="SearchEverywhereHistoryKey" value="aggressiveLazyLoading&#9;PSI&#9;JAVA://org.apache.ibatis.session.Configuration#aggressiveLazyLoading&#10;defaultExecutorType&#9;PSI&#9;JAVA://org.apache.ibatis.session.Configuration#defaultExecutorType&#10;TbItemParam&#9;FILE&#9;file://C:/Users/wenha/Desktop/分布式项目/宜立方/e3-manager/e3-manager-dao/src/main/java/cn/haohaoli/mapper/TbItemParamItemMapper.java&#10;TbItemDescMapper&#9;FILE&#9;file://C:/Users/wenha/Desktop/分布式项目/宜立方/e3-manager/e3-manager-dao/src/main/resources/mapper/TbItemDescMapper.xml&#10;TbItemCatMapper&#9;FILE&#9;file://C:/Users/wenha/Desktop/分布式项目/宜立方/e3-manager/e3-manager-dao/src/main/resources/mapper/TbItemCatMapper.xml&#10;mybatisplus&#9;PSI&#9;JAVA://com.baomidou.mybatisplus.core.exceptions.MybatisPlusException&#10;PaginationInterceptor&#9;PSI&#9;JAVA://com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.haohaoli.service.impl" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-service\src\main\resources" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-service\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-service\src\main\resources\spring" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-web\src\main\resources" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-dao\src\main\resources\mapper" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-web\src\main\webapp" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-web\src\main\webapp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-service\src\main\webapp" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-service\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-service\src\main\resources" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-service\src\main\resources\spring" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-web\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.haohaoli.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -561,14 +621,22 @@
       <option name="project" value="LOCAL" />
       <updated>1533483796559</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="调整结构">
+      <created>1533483958114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533483958114</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35486000" />
+    <option name="totallyTimeSpent" value="35650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
@@ -591,7 +659,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900944" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -673,18 +741,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-web/src/main/resources/db.properties" />
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-web/src/main/resources/spring/spring-mvc.xml" />
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-web/src/main/resources/spring/spring-dao.xml" />
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-web/src/main/resources/mybaits/mybaits-config.xml" />
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/main.iml" />
     <entry file="file://$PROJECT_DIR$/../e3-manager-web/e3-manager-web.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1015,6 +1071,51 @@
         <state relative-caret-position="375">
           <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-model/e3-manager-model.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476538708000" expanded="true" signature="1416:1426" ph="..." />
+            <marker date="1476538708000" expanded="true" signature="1838:1878" ph="..." />
+            <marker date="1476538708000" expanded="true" signature="3177:3194" ph="..." />
+            <marker date="1476538708000" expanded="true" signature="3264:3281" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
