@@ -1,51 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6398c42f-a2f7-4e18-915a-86821fca1439" name="Default" comment="剥离出manager-web 使用dubbo远程调用">
-      <change beforePath="$PROJECT_DIR$/../e3-common/target/e3-parent.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-common/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/cn/haohaoli/mapper/TbContentCategoryMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/cn/haohaoli/mapper/TbContentMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/cn/haohaoli/mapper/TbItemCatMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/cn/haohaoli/mapper/TbItemDescMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/cn/haohaoli/mapper/TbItemMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/cn/haohaoli/mapper/TbItemParamItemMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/cn/haohaoli/mapper/TbItemParamMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/cn/haohaoli/mapper/TbOrderItemMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/cn/haohaoli/mapper/TbOrderMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/cn/haohaoli/mapper/TbOrderShippingMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/cn/haohaoli/mapper/TbUserMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/mapper/TbContentCategoryMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/mapper/TbContentMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/mapper/TbItemCatMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/mapper/TbItemDescMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/mapper/TbItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/mapper/TbItemParamItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/mapper/TbItemParamMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/mapper/TbOrderItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/mapper/TbOrderMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/mapper/TbOrderShippingMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/classes/mapper/TbUserMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-interface/target/classes/cn/haohaoli/service/ItemService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/classes/cn/haohaoli/model/TbContent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/classes/cn/haohaoli/model/TbContentCategory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/classes/cn/haohaoli/model/TbItem.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/classes/cn/haohaoli/model/TbItemCat.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/classes/cn/haohaoli/model/TbItemDesc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/classes/cn/haohaoli/model/TbItemParam.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/classes/cn/haohaoli/model/TbItemParamItem.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/classes/cn/haohaoli/model/TbOrder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/classes/cn/haohaoli/model/TbOrderItem.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/classes/cn/haohaoli/model/TbOrderShipping.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/classes/cn/haohaoli/model/TbUser.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+    <list default="true" id="6398c42f-a2f7-4e18-915a-86821fca1439" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-service/target/classes/cn/haohaoli/service/impl/ItemServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -321,9 +280,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="530" />
+    <option name="x" value="192" />
+    <option name="y" value="320" />
     <option name="width" value="1401" />
-    <option name="height" value="1038" />
+    <option name="height" value="1102" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -351,7 +311,12 @@
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -589,11 +554,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533466899725</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="调整结构">
+      <created>1533483796559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533483796559</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35317000" />
+    <option name="totallyTimeSpent" value="35486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -616,7 +588,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69611305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900944" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -693,7 +665,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="剥离出manager-web 使用dubbo远程调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="剥离出manager-web 使用dubbo远程调用" />
+    <MESSAGE value="调整结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
