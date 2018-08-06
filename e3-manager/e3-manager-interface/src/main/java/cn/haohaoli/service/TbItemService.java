@@ -9,4 +9,5 @@ import com.baomidou.mybatisplus.service.IService;
  */
 public interface TbItemService extends IService<TbItem> {
 
+    boolean insert(TbItem tbItem, String desc);
 }

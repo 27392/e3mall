@@ -3,6 +3,7 @@ package cn.haohaoli.controller;
 import cn.haohaoli.model.TbItem;
 import cn.haohaoli.pojo.GridResult;
 import cn.haohaoli.service.TbItemService;
+import cn.haohaoli.utils.IDUtils;
 import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.web.bind.annotation.*;
 
@@ -41,7 +42,7 @@ public class TbItemController {
      */
     @PostMapping("/save")
     public void insertItem(TbItem tbItem,String desc){
-        tbItemService.insert(tbItem);
+        boolean insert = tbItemService.insert(tbItem, desc);
         System.out.println(tbItem);
     }
 }
