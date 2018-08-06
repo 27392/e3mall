@@ -11,12 +11,25 @@
     <mvc:annotation-driven/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="suffix" value="/WEB-INF/jsp"/>
-        <property name="prefix" value=".jsp"/>
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
     </bean>
+
+    <!-- 页面跳转 -->
+    <mvc:view-controller path="/" view-name="index"/>
+    <mvc:view-controller path="item-add" view-name="item-add"/>
+    <mvc:view-controller path="item-list" view-name="item-list"/>
+    <mvc:view-controller path="item-param-list" view-name="item-param-list"/>
+    <mvc:view-controller path="content-category" view-name="content-category"/>
+    <mvc:view-controller path="content" view-name="content"/>
+    <mvc:view-controller path="index-item" view-name="index-item"/>
+
+    <!-- 资源映射 -->
+    <mvc:resources mapping="/css/**" location="/css/"/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
 
     <!-- 引用dubbo服务 -->
     <dubbo:application name="e3-manager-web"/>
     <dubbo:registry protocol="zookeeper" address="118.89.26.70:2181"/>
-    <dubbo:reference interface="cn.haohaoli.service.ItemService" id="itemService"/>
+    <dubbo:reference interface="cn.haohaoli.service.TbItemService" id="tbItemServiceImpl"/>
 </beans>
