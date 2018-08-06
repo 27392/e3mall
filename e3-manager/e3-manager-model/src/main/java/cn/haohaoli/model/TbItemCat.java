@@ -14,7 +14,7 @@ public class TbItemCat implements Serializable {
 
     private Integer sortOrder;
 
-    private Boolean isParent;
+    private Integer isParent;
 
     private Date created;
 
@@ -41,7 +41,7 @@ public class TbItemCat implements Serializable {
     }
 
     public void setName(String name) {
-        this.name = name == null ? null : name.trim();
+        this.name = name;
     }
 
     public Integer getStatus() {
@@ -60,11 +60,11 @@ public class TbItemCat implements Serializable {
         this.sortOrder = sortOrder;
     }
 
-    public Boolean getIsParent() {
+    public Integer getIsParent() {
         return isParent;
     }
 
-    public void setIsParent(Boolean isParent) {
+    public void setIsParent(Integer isParent) {
         this.isParent = isParent;
     }
 

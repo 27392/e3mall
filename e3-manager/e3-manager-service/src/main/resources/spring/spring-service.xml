@@ -11,10 +11,11 @@
     <!-- 使用dubbo发布服务 -->
     <!-- 提供方应用信息 -->
     <dubbo:application name="e3-manager"/>
-    <dubbo:registry protocol="zookeeper" address="118.89.26.70:2181"/>
+    <dubbo:registry protocol="zookeeper" address="118.89.26.70:2181" timeout="60000"/>
     <!-- dubbo协议在20880端口暴露服务 -->
     <dubbo:protocol name="dubbo" port="20880"/>
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:service interface="cn.haohaoli.service.TbItemService" ref="tbItemServiceImpl"/>
+    <dubbo:service interface="cn.haohaoli.service.TbItemCatService" ref="tbItemCatServiceImpl"/>
 
 </beans>

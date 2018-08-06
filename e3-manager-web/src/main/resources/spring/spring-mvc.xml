@@ -6,6 +6,8 @@
        xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
+    <!-- 加载文件 -->
+    <context:property-placeholder location="classpath:config.properties"/>
     <!-- 扫描包 -->
     <context:component-scan base-package="cn.haohaoli.controller"/>
     <mvc:annotation-driven/>
@@ -28,8 +30,18 @@
     <mvc:resources mapping="/css/**" location="/css/"/>
     <mvc:resources mapping="/js/**" location="/js/"/>
 
+    <!-- 配置多媒体解析器 -->
+    <!-- 配置文件上传解析器 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 设置编码 -->
+        <property name="defaultEncoding" value="UFT-8"/>
+        <!-- 设置文件上传最大值5MB -->
+        <property name="maxUploadSize" value="5242800"/>
+    </bean>
+
     <!-- 引用dubbo服务 -->
     <dubbo:application name="e3-manager-web"/>
-    <dubbo:registry protocol="zookeeper" address="118.89.26.70:2181"/>
+    <dubbo:registry protocol="zookeeper" address="${zookeeper.address}"/>
     <dubbo:reference interface="cn.haohaoli.service.TbItemService" id="tbItemServiceImpl"/>
+    <dubbo:reference interface="cn.haohaoli.service.TbItemCatService" id="tbItemCatServiceImpl"/>
 </beans>

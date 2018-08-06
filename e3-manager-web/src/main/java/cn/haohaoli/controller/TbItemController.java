@@ -24,10 +24,25 @@ public class TbItemController {
         return tbItemService.selectById(itemId);
     }
 
+    /**
+     * 获取商品列表(分页)
+     * @param page
+     * @param rows
+     * @return
+     */
     @GetMapping("/list")
     private GridResult<TbItem> getItemList(int page, int rows) {
         Page<TbItem> tbItemPage = tbItemService.selectPage(new Page<>(page, rows));
         return new GridResult<>(tbItemPage.getTotal(),tbItemPage.getRecords());
+    }
+
+    /**
+     * 插入商品
+     */
+    @PostMapping("/save")
+    public void insertItem(TbItem tbItem,String desc){
+        tbItemService.insert(tbItem);
+        System.out.println(tbItem);
     }
 }
 
