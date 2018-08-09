@@ -1,7 +1,7 @@
 package cn.haohaoli.service.impl;
 
-import cn.haohaoli.mapper.ItemDescMapper;
-import cn.haohaoli.mapper.ItemMapper;
+import cn.haohaoli.mapper.TbItemDescMapper;
+import cn.haohaoli.mapper.TbItemMapper;
 import cn.haohaoli.model.TbItem;
 import cn.haohaoli.model.TbItemDesc;
 import cn.haohaoli.service.TbItemService;
@@ -17,13 +17,13 @@ import java.util.Date;
  * @date 2018/8/4 19:46
  */
 @Service
-public class TbItemServiceImpl extends ServiceImpl<ItemMapper,TbItem> implements TbItemService {
+public class TbItemServiceImpl extends ServiceImpl<TbItemMapper,TbItem> implements TbItemService {
 
     @Resource
-    private ItemMapper tbItemMapper;
+    private TbItemMapper tbItemMapper;
 
     @Resource
-    private ItemDescMapper tbItemDescMapper;
+    private TbItemDescMapper tbItemDescMapper;
 
     @Override
     public boolean insert(TbItem tbItem, String desc) {

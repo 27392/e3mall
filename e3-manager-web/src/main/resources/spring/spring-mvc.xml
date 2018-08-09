@@ -8,6 +8,7 @@
 
     <!-- 加载文件 -->
     <context:property-placeholder location="classpath:config.properties"/>
+
     <!-- 扫描包 -->
     <context:component-scan base-package="cn.haohaoli.controller"/>
     <mvc:annotation-driven/>
@@ -25,6 +26,8 @@
     <mvc:view-controller path="/item-param-list" view-name="item-param-list"/>
     <mvc:view-controller path="/content-category" view-name="content-category"/>
     <mvc:view-controller path="/content" view-name="content"/>
+    <mvc:view-controller path="/content-add" view-name="content-add"/>
+    <mvc:view-controller path="/content-edit" view-name="content-edit"/>
     <mvc:view-controller path="/index-item" view-name="index-item"/>
 
     <!-- 资源映射 -->

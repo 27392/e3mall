@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="cn.haohaoli.mapper.ItemCatMapper" >
+<mapper namespace="cn.haohaoli.mapper.TbItemCatMapper" >
   <resultMap id="BaseResultMap" type="cn.haohaoli.model.TbItemCat" >
     <id column="id" property="id" jdbcType="BIGINT" />
     <result column="parent_id" property="parentId" jdbcType="BIGINT" />

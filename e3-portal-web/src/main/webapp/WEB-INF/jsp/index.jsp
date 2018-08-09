@@ -39,7 +39,7 @@
 	<div class="indexW">
       <div id="index_slide" class="slide_wrap">
 		<ol>
-			<c:forEach items="${ad1List}" var="node" varStatus="status">
+			<c:forEach items="${sildeList}" var="node" varStatus="status">
 			<li>
 			  <a name="sfbest_hp_hp_focus_${status.index }" class="fore_pic trackref" href="${node.url }" target="_blank"> 
 				<img id="lunbo_1" alt="${node.title }"	src="${node.pic }">
@@ -106,7 +106,7 @@
 		   	  </div>   
  	</div>
       <ul class="none" id="lunboNum">
-      			<c:forEach items="${ad1List }" varStatus="status">
+      			<c:forEach items="${sildeList }" varStatus="status">
       			<li class="<c:if test="${status.index==0 }">cur</c:if>">${status.index+1 }</li>
       			</c:forEach>
 		        <!-- <li class="cur">1</li>

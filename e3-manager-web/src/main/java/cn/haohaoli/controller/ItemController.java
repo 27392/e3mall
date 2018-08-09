@@ -1,6 +1,7 @@
 package cn.haohaoli.controller;
 
 import cn.haohaoli.model.TbItem;
+import cn.haohaoli.pojo.E3Result;
 import cn.haohaoli.pojo.GridResult;
 import cn.haohaoli.service.TbItemService;
 import com.baomidou.mybatisplus.plugins.Page;
@@ -41,9 +42,12 @@ public class ItemController {
      * 插入商品
      */
     @PostMapping("/save")
-    public void insertItem(TbItem tbItem,String desc){
-        boolean insert = tbItemService.insert(tbItem, desc);
-        System.out.println(tbItem);
+    public E3Result insertItem(TbItem tbItem, String desc){
+        boolean b = tbItemService.insert(tbItem, desc);
+        if (!b) {
+            return E3Result.error("添加成功");
+        }
+        return E3Result.ok();
     }
 }
 
