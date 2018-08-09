@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!-- 扫描包 -->
+    <context:component-scan base-package="cn.haohaoli.poratl.controller"/>
+    <mvc:annotation-driven/>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <mvc:view-controller path="/index.html" view-name="index"/>
+
+    <!-- 引用dubbo服务 -->
+    <dubbo:application name="e3-portal-web"/>
+    <dubbo:registry protocol="zookeeper" address="${zookeeper.address}"/>
+    <!--<dubbo:reference interface="cn.haohaoli.service.TbItemService" id="tbItemServiceImpl"/>
+    <dubbo:reference interface="cn.haohaoli.service.TbItemCatService" id="tbItemCatServiceImpl"/>-->
+</beans>

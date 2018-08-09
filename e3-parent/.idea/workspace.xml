@@ -1,14 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6398c42f-a2f7-4e18-915a-86821fca1439" name="Default" comment="商品类别完成,商品图片完成上传,添加腾讯cos">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/utils/IDUtils.java" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java" afterPath="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/TbItemController.java" afterPath="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/TbItemController.java" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-interface/src/main/java/cn/haohaoli/service/TbItemService.java" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-interface/src/main/java/cn/haohaoli/service/TbItemService.java" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/java/cn/haohaoli/service/impl/TbItemServiceImpl.java" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/java/cn/haohaoli/service/impl/TbItemServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-dao.xml" />
+    <list default="true" id="6398c42f-a2f7-4e18-915a-86821fca1439" name="Default" comment="添加前天">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/resources/config.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/resources/spring/spring-mvc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/jsp/commons/mainmenu.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/css/base_w1200.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/css/index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/bottom_sm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/cate_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/foot/cd.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/foot/logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/foot/qc.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/foot/qq.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/foot/sf.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/foot_bottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/g_loading.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/160x160-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/160x160-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/160x160-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/160x160-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/160x160-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/160x160-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/160x160-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/160x160-8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/26336113289bf7273823080488a9d200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/751d2091c008c2a49c1934545730f041.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/8f42d6d2deead3da7d50c8a702a3c939.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/goods/c11e0d59289782b09ea1cbcb98070017.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/header.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/042cc65a4fb9899878f2f37235ca1793.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/1463455028.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/1463456854.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/1468837571.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/1471311388.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/1471311447.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/1472521203.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/1472521236.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/1472521250.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/1748dcf682d7f595012e4309695d71d9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/20160829181637762.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/26336113289bf7273823080488a9d200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/2a3ba6ffb33d8fca0dc848f94e3d99d8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/49111b8189bf71370cdb145f8fdb1195.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/4dd7317569a06a451c1fe7762d6bf928.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/516e4d058d1d65a3506e179642297b2d.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/51e357022c1f826f13211222831a4b13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/600c425e04b41f49e451d2fdbafb6e45.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/751d2091c008c2a49c1934545730f041.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/757e35fab995b43c23b4396dc3ba4269.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/7a80fda907bf5107f6967add2a304a51.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/838abc2055e36f423701de255bbc9914.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/8f42d6d2deead3da7d50c8a702a3c939.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/95256f5b2857ec28914f631532508d76.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/aa472cb9f9624d22d1fcfd1c4dffbe42.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/c11e0d59289782b09ea1cbcb98070017.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/c3449a684bebe21f5b6c6c79e46791ff.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/cf33d7d36f1128577782ded21fe812a9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/ddf3f66b114f3a3bfbbe0b47693cdbf0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/de66a063548629c8d4e639523d8c9c6e.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/e886f76e03f7a3596033eb34ca362339.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/html/logo_word.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/indexImg20130307.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/index_icon_new.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/indexsprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/kxicon.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/left_lm_m.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/left_lm_m_a.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/images/logo66.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/js/e3mall.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/js/global_index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/js/jquery-1.4.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/js/jquery.cookie.js" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp" afterPath="$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,6 +101,7 @@
     <ignored path="$PROJECT_DIR$/../e3-manager/e3-manager-web/target/" />
     <ignored path="$PROJECT_DIR$/../mybatis-generator/target/" />
     <ignored path="$PROJECT_DIR$/../e3-manager-web/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-portal-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,96 +123,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TbItemService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-interface/src/main/java/cn/haohaoli/service/TbItemService.java">
+      <file leaf-file-name="shortcut.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbItemServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/java/cn/haohaoli/service/impl/TbItemServiceImpl.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            <state relative-caret-position="450">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-dao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-dao.xml">
+      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/resources/spring/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+            <state relative-caret-position="475">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item-edit.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/item-edit.jsp">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="475">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/js/common.js">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2375">
-              <caret line="131" column="63" lean-forward="false" selection-start-line="131" selection-start-column="63" selection-end-line="131" selection-end-column="63" />
-              <folding>
-                <marker date="1533533109810" expanded="true" signature="1416:1426" ph="..." />
-                <marker date="1533533109810" expanded="true" signature="1838:1878" ph="..." />
-                <marker date="1533533109810" expanded="true" signature="3177:3194" ph="..." />
-                <marker date="1533533109810" expanded="true" signature="3264:3281" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="item-add.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="111" column="25" lean-forward="true" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
+            <state relative-caret-position="743">
+              <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-item.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/index-item.jsp">
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item-list.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+            <state relative-caret-position="875">
+              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbItemController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/TbItemController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../e3-portal-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+            <state relative-caret-position="600">
+              <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -171,10 +236,15 @@
       <find>multipartResolver</find>
       <find>Bucket</find>
       <find>item-edit</find>
-      <find>/rest/page/item-edit</find>
       <find>href</find>
+      <find>/rest/page/item-edit</find>
       <find>itemEditWindow</find>
+      <find>itemList</find>
+      <find>rest</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -187,16 +257,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-dao/src/main/java/cn/haohaoli/mapper/TbOrderShippingMapper.java" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-dao/src/main/java/cn/haohaoli/mapper/TbOrderMapper.java" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-dao/src/main/java/cn/haohaoli/mapper/TbItemParamMapper.java" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-dao/src/main/java/cn/haohaoli/mapper/TbOrderItemMapper.java" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-dao/src/main/java/cn/haohaoli/mapper/TbItemDescMapper.java" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-dao/src/main/java/cn/haohaoli/mapper/TbItemCatMapper.java" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-dao/src/main/java/cn/haohaoli/mapper/TbContentMapper.java" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-dao/src/main/java/cn/haohaoli/mapper/TbContentCategoryMapper.java" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-tx.xml" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-model/src/main/java/cn/haohaoli/model/TbContent.java" />
@@ -224,7 +288,6 @@
         <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/utils/CosClient.java" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/../e3-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-common/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/TbItemCatController.java" />
@@ -238,6 +301,13 @@
         <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java" />
         <option value="$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/../e3-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-portal-web/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../e3-portal-web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -256,13 +326,23 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="e3-portal-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="e3-portal-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="406" />
-    <option name="y" value="-33" />
+    <option name="x" value="266" />
+    <option name="y" value="-28" />
     <option name="width" value="1338" />
     <option name="height" value="1038" />
   </component>
@@ -282,158 +362,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="haohaoli" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="haohaoli" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manager-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../e3-manager-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../e3-portal-web/pom.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -448,16 +397,18 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-portal-web\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-portal-web\src\main\webapp" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-portal-web\src\main\resources" />
       <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager-web\src\main\resources" />
       <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager-web\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-common\src\main\resources\cn.haohaoli.pojo" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-service\src\main\webapp" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-service\src\main\webapp\WEB-INF" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cn.haohaoli.service.impl" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager-web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager-web\src\main\webapp\WEB-INF\jsp\rest\page" />
       <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager-web\src\main\webapp" />
       <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-web\src\main\webapp" />
     </key>
@@ -474,7 +425,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.manger-service">
+  <component name="RunManager" selected="Maven.portal-web">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -585,6 +536,29 @@
         </option>
       </MavenSettings>
     </configuration>
+    <configuration name="portal-web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../e3-portal-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -625,9 +599,10 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Maven.manger-service" />
       <item index="1" class="java.lang.String" itemvalue="Maven.manger-web" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.portal-web" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -652,7 +627,8 @@
       <workItem from="1533462288088" duration="2777000" />
       <workItem from="1533465073140" duration="15000" />
       <workItem from="1533465102729" duration="1877000" />
-      <workItem from="1533526049898" duration="22858000" />
+      <workItem from="1533526049898" duration="32393000" />
+      <workItem from="1533796419931" duration="391000" />
     </task>
     <task id="LOCAL-00001" summary="剥离出manager-web 使用dubbo远程调用">
       <created>1533466899725</created>
@@ -703,11 +679,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533556156756</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="商品添加完成">
+      <created>1533559122858</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1533559122858</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61122000" />
+    <option name="totallyTimeSpent" value="71048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -715,7 +698,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4860515" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -723,17 +706,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2333691" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5323911" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5365566" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41342756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41273585" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32508835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21137339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21405579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -786,7 +769,8 @@
     <MESSAGE value="添加管理后台页面样式" />
     <MESSAGE value="完成商品列表" />
     <MESSAGE value="商品类别完成,商品图片完成上传,添加腾讯cos" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品类别完成,商品图片完成上传,添加腾讯cos" />
+    <MESSAGE value="商品添加完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品添加完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -804,265 +788,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-tx.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-dao/src/main/java/cn/haohaoli/mapper/TbContentCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-model/src/main/java/cn/haohaoli/model/TbItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-model/src/main/java/cn/haohaoli/model/TbItemCat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#401#402#0" expanded="false" />
-            <element signature="e#435#436#0" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#496#497#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#573#574#0" expanded="false" />
-            <element signature="e#613#614#0" expanded="false" />
-            <element signature="e#644#645#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#711#712#0" expanded="false" />
-            <element signature="e#743#744#0" expanded="false" />
-            <element signature="e#777#778#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-            <element signature="e#851#852#0" expanded="false" />
-            <element signature="e#887#888#0" expanded="false" />
-            <element signature="e#924#925#0" expanded="false" />
-            <element signature="e#956#957#0" expanded="false" />
-            <element signature="e#1007#1008#0" expanded="false" />
-            <element signature="e#1049#1050#0" expanded="false" />
-            <element signature="e#1085#1086#0" expanded="false" />
-            <element signature="e#1116#1117#0" expanded="false" />
-            <element signature="e#1165#1166#0" expanded="false" />
-            <element signature="e#1205#1206#0" expanded="false" />
-            <element signature="e#1237#1238#0" expanded="false" />
-            <element signature="e#1267#1268#0" expanded="false" />
-            <element signature="e#1311#1312#0" expanded="false" />
-            <element signature="e#1349#1350#0" expanded="false" />
-            <element signature="e#1381#1382#0" expanded="false" />
-            <element signature="e#1411#1412#0" expanded="false" />
-            <element signature="e#1455#1456#0" expanded="false" />
-            <element signature="e#1493#1494#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/enums/IdType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <marker date="1533457681779" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1533457681779" expanded="true" signature="431:488" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="537:834" ph="{...}" />
-            <marker date="1533457681779" expanded="false" signature="859:870" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="886:892" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="921:932" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="949:955" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/entity/GlobalConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <marker date="1533457681779" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1533457681779" expanded="false" signature="155:941" ph="..." />
-            <marker date="1533457681779" expanded="true" signature="1687:2060" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="2119:2532" ph="{...}" />
-            <marker date="1533457681779" expanded="false" signature="2576:2587" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="2612:2618" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="2679:2690" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="2723:2729" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="2770:2781" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="2810:2816" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="2878:2889" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="2930:2936" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="2980:2991" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="3023:3029" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="3097:3108" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="3155:3161" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="3192:3203" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="3222:3228" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="3280:3291" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="3334:3340" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="3382:3393" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="3432:3438" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="3469:3480" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="3499:3505" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="3544:3555" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="3594:3600" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="3642:3653" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="3683:3689" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="3754:3765" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="3808:3814" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="3856:3867" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="3891:3897" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="3955:3966" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="3997:4003" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="4056:4067" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="4097:4103" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="4179:4238" ph="{...}" />
-            <marker date="1533457681779" expanded="false" signature="4283:4294" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="4320:4326" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="4380:4463" ph="{...}" />
-            <marker date="1533457681779" expanded="false" signature="4495:4506" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="4528:4534" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="4579:4590" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="4615:4621" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="4670:4681" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="4713:4719" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="4793:4856" ph="{...}" />
-            <marker date="1533457681779" expanded="false" signature="4909:4920" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="4950:4956" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="5032:5167" ph="{...}" />
-            <marker date="1533457681779" expanded="false" signature="5203:5214" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="5240:5246" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="5301:5312" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="5347:5353" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="5389:5400" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="5424:5430" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="5482:5493" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="5524:5530" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="5571:5671" ph="{...}" />
-            <marker date="1533457681779" expanded="false" signature="5731:5742" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="5781:5787" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="5840:6029" ph="{...}" />
-            <marker date="1533457681779" expanded="false" signature="6068:6079" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="6102:6108" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="6147:6158" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="6185:6191" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="6250:6261" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="6298:6304" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="6389:6573" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/enums/RegionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/5.4.4/cos_api-5.4.4.jar!/com/qcloud/cos/model/PutObjectRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <marker date="1533543565182" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1533543565182" expanded="false" signature="144:214" ph="..." />
-            <marker date="1533543565182" expanded="true" signature="374:385" ph=" { " />
-            <marker date="1533543565182" expanded="true" signature="414:420" ph=" }" />
-            <marker date="1533543565182" expanded="true" signature="525:581" ph="{...}" />
-            <marker date="1533543565182" expanded="true" signature="619:760" ph="{...}" />
-            <marker date="1533543565182" expanded="true" signature="824:898" ph="{...}" />
-            <marker date="1533543565182" expanded="false" signature="947:958" ph=" { " />
-            <marker date="1533543565182" expanded="false" signature="1002:1008" ph=" }" />
-            <marker date="1533543565182" expanded="true" signature="1076:1154" ph="{...}" />
-            <marker date="1533543565182" expanded="true" signature="1228:1306" ph="{...}" />
-            <marker date="1533543565182" expanded="false" signature="1355:1366" ph=" { " />
-            <marker date="1533543565182" expanded="false" signature="1412:1418" ph=" }" />
-            <marker date="1533543565182" expanded="true" signature="1486:1556" ph="{...}" />
-            <marker date="1533543565182" expanded="true" signature="1635:1707" ph="{...}" />
-            <marker date="1533543565182" expanded="true" signature="1796:1884" ph="{...}" />
-            <marker date="1533543565182" expanded="true" signature="1955:2031" ph="{...}" />
-            <marker date="1533543565182" expanded="true" signature="2107:2193" ph="{...}" />
-            <marker date="1533543565182" expanded="true" signature="2265:2339" ph="{...}" />
-            <marker date="1533543565182" expanded="true" signature="2452:2556" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/pojo/GridResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/pojo/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,7 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,7 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="110" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <marker date="1533445093076" expanded="false" signature="0:104" ph="/.../" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,18 +905,11 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.607322987390883" x="437.28208068068665" y="224.50592885375488" />
+          <settings layout="Hierarchic Group" zoom="1.607322987390883" x="437.0" y="225.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,22 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1258,26 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="758">
           <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding>
-            <marker date="1533445093076" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1533445093076" expanded="false" signature="162:753" ph="..." />
-            <marker date="1533445093076" expanded="false" signature="1161:1172" ph=" { " />
-            <marker date="1533445093076" expanded="false" signature="1193:1199" ph=" }" />
-            <marker date="1533445093076" expanded="false" signature="1262:1273" ph=" { " />
-            <marker date="1533445093076" expanded="false" signature="1293:1299" ph=" }" />
-            <marker date="1533445093076" expanded="true" signature="1421:1477" ph="{...}" />
-            <marker date="1533445093076" expanded="true" signature="1556:1615" ph="{...}" />
-            <marker date="1533445093076" expanded="true" signature="1725:1784" ph="{...}" />
-            <marker date="1533445093076" expanded="true" signature="1878:1949" ph="{...}" />
-            <marker date="1533445093076" expanded="true" signature="2113:2718" ph="{...}" />
-            <marker date="1533445093076" expanded="true" signature="2878:4227" ph="{...}" />
-            <marker date="1533445093076" expanded="true" signature="4306:4483" ph="{...}" />
-            <marker date="1533445093076" expanded="true" signature="4603:5061" ph="{...}" />
-            <marker date="1533445093076" expanded="true" signature="5126:6283" ph="{...}" />
-            <marker date="1533445093076" expanded="true" signature="6368:6964" ph="{...}" />
-            <marker date="1533445093076" expanded="true" signature="7047:7618" ph="{...}" />
-            <marker date="1533445093076" expanded="true" signature="7678:8011" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1285,9 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1295,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,10 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-          <folding>
-            <marker date="1533457681779" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1533457681779" expanded="false" signature="156:345" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1314,96 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
-          <folding>
-            <marker date="1533457681779" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1533457681779" expanded="false" signature="161:1216" ph="..." />
-            <marker date="1533457681779" expanded="true" signature="1365:1372" ph="{}" />
-            <marker date="1533457681779" expanded="false" signature="1426:1437" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="1470:1476" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="1520:1531" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="1596:1602" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="1646:1657" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="1716:1722" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="1779:1883" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="1889:1950" ph="@{...}" />
-            <marker date="1533457681779" expanded="false" signature="1986:1997" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="2044:2050" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="2056:2117" ph="@{...}" />
-            <marker date="1533457681779" expanded="false" signature="2162:2173" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="2229:2235" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="2241:2302" ph="@{...}" />
-            <marker date="1533457681779" expanded="false" signature="2353:2364" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="2404:2410" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="2416:2477" ph="@{...}" />
-            <marker date="1533457681779" expanded="true" signature="2544:4172" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="4178:4239" ph="@{...}" />
-            <marker date="1533457681779" expanded="true" signature="4284:5039" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="5045:5106" ph="@{...}" />
-            <marker date="1533457681779" expanded="true" signature="5160:5942" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="5948:6009" ph="@{...}" />
-            <marker date="1533457681779" expanded="false" signature="6068:6079" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="6127:6133" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="6139:6200" ph="@{...}" />
-            <marker date="1533457681779" expanded="true" signature="6275:6352" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="6358:6419" ph="@{...}" />
-            <marker date="1533457681779" expanded="true" signature="6488:6559" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="6565:6626" ph="@{...}" />
-            <marker date="1533457681779" expanded="true" signature="6710:6788" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="6884:8605" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="8611:8672" ph="@{...}" />
-            <marker date="1533457681779" expanded="false" signature="8719:8730" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="8787:8793" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="8799:8860" ph="@{...}" />
-            <marker date="1533457681779" expanded="true" signature="8923:9157" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="9163:9224" ph="@{...}" />
-            <marker date="1533457681779" expanded="false" signature="9270:9281" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="9339:9345" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="9351:9412" ph="@{...}" />
-            <marker date="1533457681779" expanded="true" signature="9490:9571" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="9577:9638" ph="@{...}" />
-            <marker date="1533457681779" expanded="false" signature="9678:9689" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="9740:9746" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="9752:9813" ph="@{...}" />
-            <marker date="1533457681779" expanded="false" signature="9862:9873" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="9933:9939" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="9945:10006" ph="@{...}" />
-            <marker date="1533457681779" expanded="false" signature="10062:10073" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="10129:10135" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="10141:10202" ph="@{...}" />
-            <marker date="1533457681779" expanded="true" signature="10270:10348" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="10354:10415" ph="@{...}" />
-            <marker date="1533457681779" expanded="false" signature="10470:10481" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="10525:10531" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="10537:10598" ph="@{...}" />
-            <marker date="1533457681779" expanded="true" signature="10669:10742" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="10748:10809" ph="@{...}" />
-            <marker date="1533457681779" expanded="true" signature="10874:10943" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="10949:11010" ph="@{...}" />
-            <marker date="1533457681779" expanded="true" signature="11090:11164" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="11256:13102" ph="{...}" />
-            <marker date="1533457681779" expanded="false" signature="13144:13155" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="13193:13199" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="13278:13340" ph="{...}" />
-            <marker date="1533457681779" expanded="false" signature="13403:13414" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="13460:13466" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="13510:13521" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="13585:13591" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="13654:13739" ph="{...}" />
-            <marker date="1533457681779" expanded="false" signature="13788:13799" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="13863:13869" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="13917:13928" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="13992:13998" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="14049:14060" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="14103:14109" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="14154:14165" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="14211:14217" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="14286:14297" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="14340:14346" ph=" }" />
-            <marker date="1533457681779" expanded="false" signature="14402:14413" ph=" { " />
-            <marker date="1533457681779" expanded="false" signature="14456:14462" ph=" }" />
-            <marker date="1533457681779" expanded="true" signature="14547:14703" ph="{...}" />
-            <marker date="1533457681779" expanded="true" signature="14769:14921" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1411,20 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#654#655#0" expanded="false" />
-            <element signature="e#682#683#0" expanded="false" />
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#755#756#0" expanded="false" />
-            <element signature="e#785#786#0" expanded="false" />
-            <element signature="e#811#812#0" expanded="false" />
-            <element signature="e#849#850#0" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#913#914#0" expanded="false" />
-            <element signature="e#943#944#0" expanded="false" />
-            <element signature="e#989#990#0" expanded="false" />
-            <element signature="e#1027#1028#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1432,15 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1448,9 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1458,7 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="631">
           <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1466,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,7 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1482,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1494,32 +1044,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/item-edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2375">
-          <caret line="131" column="63" lean-forward="false" selection-start-line="131" selection-start-column="63" selection-end-line="131" selection-end-column="63" />
-          <folding>
-            <marker date="1533533109810" expanded="true" signature="1416:1426" ph="..." />
-            <marker date="1533533109810" expanded="true" signature="1838:1878" ph="..." />
-            <marker date="1533533109810" expanded="true" signature="3177:3194" ph="..." />
-            <marker date="1533533109810" expanded="true" signature="3264:3281" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="111" column="25" lean-forward="true" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1527,22 +1055,172 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/utils/FileUtils.java" />
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2925">
+          <caret line="231" column="40" lean-forward="true" selection-start-line="231" selection-start-column="40" selection-end-line="231" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/item-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="105" column="38" lean-forward="false" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/content.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2050">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/file-upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="113" column="26" lean-forward="false" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        <state relative-caret-position="-350">
+          <caret line="19" column="133" lean-forward="false" selection-start-line="19" selection-start-column="129" selection-end-line="19" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/target/tomcat/conf/tomcat-users.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/target/tomcat/conf/logging.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="47" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/utils/FileUtils.java">
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/webapp/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
           <folding />
         </state>
       </provider>

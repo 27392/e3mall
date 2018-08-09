@@ -19,12 +19,13 @@
 
     <!-- 页面跳转 -->
     <mvc:view-controller path="/" view-name="index"/>
-    <mvc:view-controller path="item-add" view-name="item-add"/>
-    <mvc:view-controller path="item-list" view-name="item-list"/>
-    <mvc:view-controller path="item-param-list" view-name="item-param-list"/>
-    <mvc:view-controller path="content-category" view-name="content-category"/>
-    <mvc:view-controller path="content" view-name="content"/>
-    <mvc:view-controller path="index-item" view-name="index-item"/>
+    <mvc:view-controller path="/item-add" view-name="item-add"/>
+    <mvc:view-controller path="/item-list" view-name="item-list"/>
+    <mvc:view-controller path="/item-edit" view-name="item-edit"/>
+    <mvc:view-controller path="/item-param-list" view-name="item-param-list"/>
+    <mvc:view-controller path="/content-category" view-name="content-category"/>
+    <mvc:view-controller path="/content" view-name="content"/>
+    <mvc:view-controller path="/index-item" view-name="index-item"/>
 
     <!-- 资源映射 -->
     <mvc:resources mapping="/css/**" location="/css/"/>
