@@ -36,6 +36,9 @@
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.59" />
+          <element id="archive" name="e3-content-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="e3-content-interface" />
+          </element>
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.8.RELEASE" />

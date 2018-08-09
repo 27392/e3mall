@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 加载配置文件 -->
+    <context:property-placeholder location="classpath:db.properties"/>
+
+    <!-- 数据库连接池 -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <!-- 基本属性 url、user、password -->
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <!-- 监控统计用的filter:stat 日志用的filter:log4j 防御sql注入的filter:wall-->
+        <property name="filters" value="stat" />
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="initialSize" value="${jdbc.initialSize}"/>
+        <property name="minIdle" value="${jdbc.minIdle}"/>
+        <property name="maxActive" value="${jdbc.maxActive}"/>
+        <!-- 配置获取连接等待超时的时间 -->
+        <property name="maxWait" value="${jdbc.maxWait}" />
+        <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+        <property name="timeBetweenEvictionRunsMillis" value="${jdbc.timeBetweenEvictionRunsMillis}" />
+        <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+        <property name="minEvictableIdleTimeMillis" value="${jdbc.minEvictableIdleTimeMillis}" />
+        <!-- 用来检测连接是否有效的sql -->
+        <property name="validationQuery" value="${jdbc.validationQuery}" />
+        <!-- 申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。-->
+        <property name="testOnBorrow" value="${jdbc.testOnBorrow}" />
+        <!-- 归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。 -->
+        <property name="testOnReturn" value="${jdbc.testOnReturn}" />
+        <!--建议配置为true，不影响性能，并且保证安全性。申请连接的时候检测 -->
+        <property name="testWhileIdle" value="${jdbc.testWhileIdle}" />
+    </bean>
+
+    <!-- mybatis plus 全局配置 -->
+    <bean id="globalConfiguration" class="com.baomidou.mybatisplus.entity.GlobalConfiguration">
+        <!-- 全局ID类型： 0, "数据库ID自增"， 1, "用户输入ID", 2, "全局唯一ID", 3, "全局唯一ID"-->
+        <property name="idType" value="1"/>
+    </bean>
+
+
+    <!-- 配置 sqlSessionFactory -->
+    <bean id="sqlSessionFactory" class="com.baomidou.mybatisplus.spring.MybatisSqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:/mybaits/mybaits-config.xml"/>
+        <property name="typeAliasesPackage" value="cn.haohaoli.model"/>
+        <property name="mapperLocations" value="classpath:mapper/*Mapper.xml"/>
+        <property name="globalConfig" ref="globalConfiguration"/>
+        <property name="plugins">
+            <array>
+                <!-- 分页插件配置 -->
+                <bean class="com.baomidou.mybatisplus.plugins.PaginationInterceptor">
+                    <property name="dialectType" value="mysql"/>
+                </bean>
+                <!-- 性能拦截器，兼打印sql，不建议生产环境配置-->
+                <bean class="com.baomidou.mybatisplus.plugins.PerformanceInterceptor"/>
+            </array>
+        </property>
+    </bean>
+
+    <!-- 扫描mapper -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="cn.haohaoli.mapper"/>
+    </bean>
+</beans>

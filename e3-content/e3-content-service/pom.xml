@@ -3,40 +3,25 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>e3-parent</artifactId>
+        <artifactId>e3-content</artifactId>
         <groupId>cn.haohaoli</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>e3-manager-web</artifactId>
+    <artifactId>e3-content-service</artifactId>
     <packaging>war</packaging>
 
     <dependencies>
         <dependency>
             <groupId>cn.haohaoli</groupId>
-            <artifactId>e3-manager-interface</artifactId>
+            <artifactId>e3-manager-dao</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>cn.haohaoli</groupId>
             <artifactId>e3-content-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <!-- JSP相关 -->
-        <dependency>
-            <groupId>jstl</groupId>
-            <artifactId>jstl</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jsp-api</artifactId>
-            <scope>provided</scope>
         </dependency>
         <!-- Spring -->
         <dependency>
@@ -85,18 +70,5 @@
             <artifactId>curator-framework</artifactId>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <!-- 配置Tomcat插件 -->
-            <plugin>
-                <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat7-maven-plugin</artifactId>
-                <configuration>
-                    <path>/</path>
-                    <port>8081</port>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

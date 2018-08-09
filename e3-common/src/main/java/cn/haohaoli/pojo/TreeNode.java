@@ -3,6 +3,7 @@ package cn.haohaoli.pojo;
 import java.io.Serializable;
 
 /**
+ * 树对象
  * @author Liwenhao
  * @date 2018/8/6 12:51
  */

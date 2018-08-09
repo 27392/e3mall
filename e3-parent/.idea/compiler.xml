@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="e3-common" />
+        <module name="e3-content-interface" />
+        <module name="e3-content-service" />
         <module name="e3-manager-dao" />
         <module name="e3-manager-interface" />
         <module name="e3-manager-model" />
@@ -17,6 +19,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="e3-common" target="1.8" />
+      <module name="e3-content" target="1.8" />
+      <module name="e3-content-interface" target="1.8" />
+      <module name="e3-content-service" target="1.8" />
       <module name="e3-manager" target="1.8" />
       <module name="e3-manager-dao" target="1.8" />
       <module name="e3-manager-interface" target="1.8" />

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!-- 全局启用或禁用在此配置下的任何映射器中配置的任何缓存 -->
+        <setting name="cacheEnabled" value="false"/>
+        <!-- 设置驱动程序等待来自数据库的响应的秒数 -->
+        <setting name="defaultStatementTimeout" value="5"/>
+        <!-- 支持从经典数据库列名A_COLUMN自动映射到驼峰情况的经典Java属性名aColumn -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!-- JDBC支持生成键。需要一个兼容的驱动程序。如果设置为true，则该设置强制生成密钥，因为有些驱动程序拒绝兼容，但仍然有效。 -->
+        <setting name="useGeneratedKeys" value="true"/>
+    </settings>
+
+</configuration>

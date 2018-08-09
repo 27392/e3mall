@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
+ * 分页对象
  * @author Liwenhao
  * @date 2018/8/5 20:41
  */

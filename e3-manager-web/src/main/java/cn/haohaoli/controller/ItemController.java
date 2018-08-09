@@ -3,19 +3,19 @@ package cn.haohaoli.controller;
 import cn.haohaoli.model.TbItem;
 import cn.haohaoli.pojo.GridResult;
 import cn.haohaoli.service.TbItemService;
-import cn.haohaoli.utils.IDUtils;
 import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
 /**
+ * 商品控制器
  * @author Liwenhao
  * @date 2018/8/4 19:36
  */
 @RestController
 @RequestMapping("/item")
-public class TbItemController {
+public class ItemController {
 
     @Resource
     private TbItemService tbItemService;

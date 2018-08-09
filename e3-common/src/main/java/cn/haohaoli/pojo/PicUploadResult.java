@@ -1,6 +1,7 @@
 package cn.haohaoli.pojo;
 
 /**
+ * 文件上传对象
  * @author Liwenhao
  * @date 2018/8/6 19:15
  */

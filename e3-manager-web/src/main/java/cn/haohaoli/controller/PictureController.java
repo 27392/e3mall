@@ -12,6 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 /**
+ * 图片控制器
  * @author Liwenhao
  * @date 2018/8/6 16:33
  */

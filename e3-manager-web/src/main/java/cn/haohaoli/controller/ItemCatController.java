@@ -14,12 +14,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 商品分类控制器
  * @author Liwenhao
  * @date 2018/8/6 12:59
  */
 @RestController
 @RequestMapping("/item/cat")
-public class TbItemCatController {
+public class ItemCatController {
 
     @Resource
     private TbItemCatService tbItemCatService;
