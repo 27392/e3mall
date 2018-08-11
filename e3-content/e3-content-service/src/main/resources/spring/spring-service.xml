@@ -10,10 +10,10 @@
 
     <!-- 使用dubbo发布服务 -->
     <!-- 提供方应用信息 -->
-    <dubbo:application name="e3-content"/>
-    <dubbo:registry protocol="zookeeper" address="118.89.26.70:2181" timeout="60000"/>
+    <dubbo:application name="${dubbo.application.name}"/>
+    <dubbo:registry protocol="zookeeper" address="${dubbo.zookeeper.address}" timeout="${dubbo.zookeeper.timeout}"/>
     <!-- dubbo协议在20881端口暴露服务 -->
-    <dubbo:protocol name="dubbo" port="20881"/>
+    <dubbo:protocol name="dubbo" port="${dubbo.port}"/>
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:service interface="cn.haohaoli.content.service.TbContentCategoryService" ref="tbContentCategoryServiceImpl"/>
     <dubbo:service interface="cn.haohaoli.content.service.TbContentService" ref="tbContentServiceImpl"/>

@@ -1,4 +1,4 @@
-package cn.haohaoli.utils;
+package cn.haohaoli.common.utils;
 
 import java.util.Random;
 

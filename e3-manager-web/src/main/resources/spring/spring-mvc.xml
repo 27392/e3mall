@@ -44,8 +44,8 @@
     </bean>
 
     <!-- 引用dubbo服务 -->
-    <dubbo:application name="e3-manager-web"/>
-    <dubbo:registry protocol="zookeeper" address="${zookeeper.address}"/>
+    <dubbo:application name="${dubbo.application.name}"/>
+    <dubbo:registry protocol="zookeeper" address="${dubbo.zookeeper.address}"/>
     <dubbo:reference interface="cn.haohaoli.service.TbItemService" id="tbItemServiceImpl"/>
     <dubbo:reference interface="cn.haohaoli.service.TbItemCatService" id="tbItemCatServiceImpl"/>
     <dubbo:reference interface="cn.haohaoli.content.service.TbContentCategoryService" id="tbContentCategoryServiceImpl"/>

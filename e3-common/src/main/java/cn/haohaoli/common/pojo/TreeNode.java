@@ -1,4 +1,4 @@
-package cn.haohaoli.pojo;
+package cn.haohaoli.common.pojo;
 
 import java.io.Serializable;
 

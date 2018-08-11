@@ -2,10 +2,9 @@ package cn.haohaoli.controller;
 
 import cn.haohaoli.content.service.TbContentCategoryService;
 import cn.haohaoli.model.TbContentCategory;
-import cn.haohaoli.pojo.E3Result;
-import cn.haohaoli.pojo.TreeNode;
+import cn.haohaoli.common.pojo.E3Result;
+import cn.haohaoli.common.pojo.TreeNode;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
-import com.baomidou.mybatisplus.mapper.Wrapper;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;

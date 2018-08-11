@@ -3,7 +3,7 @@ package cn.haohaoli.content.service.impl;
 import cn.haohaoli.content.service.TbContentCategoryService;
 import cn.haohaoli.mapper.TbContentCategoryMapper;
 import cn.haohaoli.model.TbContentCategory;
-import cn.haohaoli.pojo.E3Result;
+import cn.haohaoli.common.pojo.E3Result;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

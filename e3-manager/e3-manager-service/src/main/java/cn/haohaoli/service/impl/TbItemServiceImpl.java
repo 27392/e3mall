@@ -5,7 +5,7 @@ import cn.haohaoli.mapper.TbItemMapper;
 import cn.haohaoli.model.TbItem;
 import cn.haohaoli.model.TbItemDesc;
 import cn.haohaoli.service.TbItemService;
-import cn.haohaoli.utils.IDUtils;
+import cn.haohaoli.common.utils.IDUtils;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

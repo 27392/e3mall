@@ -2,8 +2,8 @@ package cn.haohaoli.controller;
 
 import cn.haohaoli.content.service.TbContentService;
 import cn.haohaoli.model.TbContent;
-import cn.haohaoli.pojo.E3Result;
-import cn.haohaoli.pojo.GridResult;
+import cn.haohaoli.common.pojo.E3Result;
+import cn.haohaoli.common.pojo.GridResult;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.web.bind.annotation.GetMapping;

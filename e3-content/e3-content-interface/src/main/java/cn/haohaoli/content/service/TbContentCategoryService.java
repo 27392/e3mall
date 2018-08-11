@@ -1,7 +1,7 @@
 package cn.haohaoli.content.service;
 
 import cn.haohaoli.model.TbContentCategory;
-import cn.haohaoli.pojo.E3Result;
+import cn.haohaoli.common.pojo.E3Result;
 import com.baomidou.mybatisplus.service.IService;
 
 /**

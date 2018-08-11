@@ -1,4 +1,4 @@
-package cn.haohaoli.utils;
+package cn.haohaoli.common.utils;
 
 import com.qcloud.cos.COSClient;
 import com.qcloud.cos.ClientConfig;

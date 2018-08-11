@@ -1,8 +1,8 @@
 package cn.haohaoli.controller;
 
 import cn.haohaoli.model.TbItem;
-import cn.haohaoli.pojo.E3Result;
-import cn.haohaoli.pojo.GridResult;
+import cn.haohaoli.common.pojo.E3Result;
+import cn.haohaoli.common.pojo.GridResult;
 import cn.haohaoli.service.TbItemService;
 import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.web.bind.annotation.*;

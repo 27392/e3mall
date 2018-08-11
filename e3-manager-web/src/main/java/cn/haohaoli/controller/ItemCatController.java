@@ -1,7 +1,7 @@
 package cn.haohaoli.controller;
 
 import cn.haohaoli.model.TbItemCat;
-import cn.haohaoli.pojo.TreeNode;
+import cn.haohaoli.common.pojo.TreeNode;
 import cn.haohaoli.service.TbItemCatService;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import org.springframework.web.bind.annotation.PostMapping;
