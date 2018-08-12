@@ -46,10 +46,14 @@ public class JedisTest {
         Set<HostAndPort> nodes = new HashSet<>();
         nodes.add(new HostAndPort("118.89.26.70", 7001));
         nodes.add(new HostAndPort("118.89.26.70", 7002));
+        nodes.add(new HostAndPort("118.89.26.70", 7003));
+        nodes.add(new HostAndPort("118.89.26.70", 7004));
+        nodes.add(new HostAndPort("118.89.26.70", 7005));
+        nodes.add(new HostAndPort("118.89.26.70", 7006));
         JedisCluster jedisCluster = new JedisCluster(nodes);
         //直接使用jedisCluster对象操作redis
-        jedisCluster.set("cluster1", "redis cluster");
-        System.out.println(jedisCluster.get("cluster1"));
+        jedisCluster.set("cluster12", "redis cluster");
+        System.out.println(jedisCluster.get("cluster12"));
         //关闭jedisCluster对象
         jedisCluster.close();
     }

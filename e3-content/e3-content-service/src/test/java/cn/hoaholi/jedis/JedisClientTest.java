@@ -13,14 +13,12 @@ public class JedisClientTest {
 
     @Test
     public void testJedisClient() throws Exception{
-
         //获取spring容器
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/spring-redis.xml");
         //从容器中获取jedisClient对象
         JedisClient bean = applicationContext.getBean(JedisClient.class);
-        bean.set("myTest", "123456");
-        System.out.println(bean.get("myTest"));
-
+        bean.set("myredis", "redis");
+        System.out.println(bean.get("myredis"));
     }
 
 }

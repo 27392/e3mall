@@ -5,8 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- 加载配置文件 -->
-    <!--<context:property-placeholder location="classpath:config.properties"/>-->
-
+    <context:property-placeholder location="classpath:config.properties"/>
 
     <!-- 单机版 -->
     <!-- 创建jedis连接池对象 -->
@@ -18,35 +17,41 @@
         <property name="jedisPool" ref="jedisPool"/>
     </bean>-->
 
-
-    <bean class="cn.haohaoli.common.jedis.JedisClientCluster">
-        <property name="jedisCluster" ref="jedisCluster"/>
-    </bean>
-
     <!-- 集群版 -->
     <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
         <constructor-arg name="nodes">
             <set>
                 <bean class="redis.clients.jedis.HostAndPort">
-                    <constructor-arg name="host" value="118.89.26.70"/>
-                    <constructor-arg name="port" value="7001"/>
+                    <constructor-arg name="host" value="${redis.cluster1.host}"/>
+                    <constructor-arg name="port" value="${redis.cluster1.port}"/>
                 </bean>
                 <bean class="redis.clients.jedis.HostAndPort">
-                    <constructor-arg name="host" value="118.89.26.70"/>
-                    <constructor-arg name="port" value="7002"/>
+                    <constructor-arg name="host" value="${redis.cluster2.host}"/>
+                    <constructor-arg name="port" value="${redis.cluster2.port}"/>
                 </bean>
                 <bean class="redis.clients.jedis.HostAndPort">
-                    <constructor-arg name="host" value="118.89.26.70"/>
-                    <constructor-arg name="port" value="7003"/>
+                    <constructor-arg name="host" value="${redis.cluster3.host}"/>
+                    <constructor-arg name="port" value="${redis.cluster3.port}"/>
                 </bean>
                 <bean class="redis.clients.jedis.HostAndPort">
-                    <constructor-arg name="host" value="118.89.26.70"/>
-                    <constructor-arg name="port" value="7004"/>
+                    <constructor-arg name="host" value="${redis.cluster4.host}"/>
+                    <constructor-arg name="port" value="${redis.cluster4.port}"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="${redis.cluster5.host}"/>
+                    <constructor-arg name="port" value="${redis.cluster5.port}"/>
+                </bean>
+                <bean class="redis.clients.jedis.HostAndPort">
+                    <constructor-arg name="host" value="${redis.cluster6.host}"/>
+                    <constructor-arg name="port" value="${redis.cluster6.port}"/>
                 </bean>
             </set>
         </constructor-arg>
     </bean>
 
+    <bean class="cn.haohaoli.common.jedis.JedisClientCluster">
+        <property name="jedisCluster" ref="jedisCluster"/>
+    </bean>
 
 
 
