@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6398c42f-a2f7-4e18-915a-86821fca1439" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClient.java" afterPath="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClient.java" />
-      <change beforePath="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-redis.xml" afterPath="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-redis.xml" />
+      <change beforePath="$PROJECT_DIR$/../e3-common/e3-common.iml" afterPath="$PROJECT_DIR$/../e3-common/e3-common.iml" />
+      <change beforePath="$PROJECT_DIR$/../e3-common/pom.xml" afterPath="$PROJECT_DIR$/../e3-common/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentService.java" afterPath="$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentService.java" />
+      <change beforePath="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentServiceImpl.java" afterPath="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/config.properties" />
       <change beforePath="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java" afterPath="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java" />
-      <change beforePath="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java" afterPath="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java" afterPath="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/e3-manager-dao.iml" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/e3-manager-dao.iml" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-interface/e3-manager-interface.iml" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-interface/e3-manager-interface.iml" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/e3-manager-model.iml" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-model/e3-manager-model.iml" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-service/e3-manager-service.iml" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/e3-manager-service.iml" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager.iml" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/e3_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/e3_manager_web_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../e3-portal-web/src/main/java/cn/haohaoli/poratl/controller/IndexController.java" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/java/cn/haohaoli/poratl/controller/IndexController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,50 +55,191 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="e3mall@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="e3mall@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5599739">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="spring-redis.xml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-redis.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="JedisClientTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="350">
-                  <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="JedisTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="53" column="28" lean-forward="false" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="JedisTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="55" column="58" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="55" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisClientTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbContentService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbContentServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="81" column="31" lean-forward="true" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/util/StringUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="45" />
+              <folding>
+                <marker date="1533445095791" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1533445095791" expanded="false" signature="148:643" ph="..." />
+                <marker date="1533445095791" expanded="true" signature="986:993" ph="{}" />
+                <marker date="1533445095791" expanded="true" signature="1050:1061" ph=" { " />
+                <marker date="1533445095791" expanded="true" signature="1098:1104" ph=" }" />
+                <marker date="1533445095791" expanded="false" signature="1169:1180" ph=" { " />
+                <marker date="1533445095791" expanded="false" signature="1219:1225" ph=" }" />
+                <marker date="1533445095791" expanded="false" signature="1284:1295" ph=" { " />
+                <marker date="1533445095791" expanded="false" signature="1332:1338" ph=" }" />
+                <marker date="1533445095791" expanded="true" signature="1402:1478" ph="{...}" />
+                <marker date="1533445095791" expanded="false" signature="1535:1546" ph=" { " />
+                <marker date="1533445095791" expanded="false" signature="1604:1610" ph=" }" />
+                <marker date="1533445095791" expanded="true" signature="1670:1889" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="1964:2294" ph="{...}" />
+                <marker date="1533445095791" expanded="false" signature="2362:2373" ph=" { " />
+                <marker date="1533445095791" expanded="false" signature="2418:2424" ph=" }" />
+                <marker date="1533445095791" expanded="true" signature="2478:2988" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="3045:3469" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="3530:3837" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="3899:4234" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="4317:4620" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="4705:5037" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="5133:5279" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="5373:5548" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="5644:5979" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="6046:6359" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="6459:7389" ph="{...}" />
+                <marker date="1533445095791" expanded="false" signature="7455:7466" ph=" { " />
+                <marker date="1533445095791" expanded="false" signature="7504:7510" ph=" }" />
+                <marker date="1533445095791" expanded="true" signature="7596:8049" ph="{...}" />
+                <marker date="1533445095791" expanded="false" signature="8117:8128" ph=" { " />
+                <marker date="1533445095791" expanded="false" signature="8172:8178" ph=" }" />
+                <marker date="1533445095791" expanded="true" signature="8255:8327" ph="{...}" />
+                <marker date="1533445095791" expanded="false" signature="8385:8396" ph=" { " />
+                <marker date="1533445095791" expanded="false" signature="8433:8439" ph=" }" />
+                <marker date="1533445095791" expanded="true" signature="8514:8603" ph="{...}" />
+                <marker date="1533445095791" expanded="false" signature="8652:8663" ph=" { " />
+                <marker date="1533445095791" expanded="false" signature="8706:8712" ph=" }" />
+                <marker date="1533445095791" expanded="false" signature="8763:8774" ph=" { " />
+                <marker date="1533445095791" expanded="false" signature="8818:8824" ph=" }" />
+                <marker date="1533445095791" expanded="true" signature="8909:9518" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="9594:9822" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="9907:10283" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="10346:10613" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="10692:11059" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="11109:12766" ph="{...}" />
+                <marker date="1533445095791" expanded="false" signature="12832:12843" ph=" { " />
+                <marker date="1533445095791" expanded="false" signature="12892:12898" ph=" }" />
+                <marker date="1533445095791" expanded="true" signature="12967:14274" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="14347:14675" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="14755:14846" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="14918:14997" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="15095:15908" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="15972:16310" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="16316:16334" ph="/**...*/" />
+                <marker date="1533445095791" expanded="true" signature="16405:16515" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="16587:16907" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="16991:17297" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="17418:17845" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="17851:17869" ph="/**...*/" />
+                <marker date="1533445095791" expanded="true" signature="17874:17899" ph="@{...}" />
+                <marker date="1533445095791" expanded="true" signature="17999:18619" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="18680:18848" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="18922:18989" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="19065:19145" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="19218:19591" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="19659:20083" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="20186:20679" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="20791:20879" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="21023:21745" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="21837:21911" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="22050:22745" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="22851:22931" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="23069:24011" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="24094:24154" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="24232:24564" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="24693:25134" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="25233:25305" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="25385:25447" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="25535:26000" ph="{...}" />
+                <marker date="1533445095791" expanded="true" signature="26079:26135" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-portal-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="147" column="52" lean-forward="false" selection-start-line="147" selection-start-column="52" selection-end-line="147" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PictureController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/ContentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,6 +280,7 @@
       <find>selectOne</find>
       <find>/content/category</find>
       <find>redis.cluster2.host</find>
+      <find>json</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -144,15 +297,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../e3-content/pom.xml" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-model/src/main/java/cn/haohaoli/model/Content.java" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-model/src/main/java/cn/haohaoli/model/TbContent.java" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/java/cn/haohaoli/service/impl/ItemCatServiceImpl.java" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-interface/src/main/java/cn/haohaoli/service/TbItemCatService.java" />
         <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-model/src/main/java/cn/haohaoli/model/TbContentCategory.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c52ec977-67ab-43c0-bc03-b0fdfdb6dc10/console.sql" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentCategoryServiceImpl.java" />
@@ -164,7 +313,6 @@
         <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/pojo/GridResult.java" />
         <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/../e3-portal-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../e3-portal-web/src/main/java/cn/haohaoli/poratl/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/ContentController.java" />
         <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/jedis.java" />
@@ -176,25 +324,30 @@
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/zookeeper.properties" />
         <option value="$PROJECT_DIR$/../e3-portal-web/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/../e3-portal-web/src/main/resources/spring/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/../e3-common/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/dubbo.properties" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/dubbo.properties" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/redis.properties" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/redis/redis-config.xml" />
         <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientCluster.java" />
-        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientPool.java" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClient.java" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java" />
-        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java" />
+        <option value="$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/../e3-portal-web/src/main/java/cn/haohaoli/poratl/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java" />
+        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -216,15 +369,24 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="e3-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="e3-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="e3-content" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="e3-content" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="552" />
-    <option name="y" value="-9" />
+    <option name="x" value="-68" />
+    <option name="y" value="-27" />
     <option name="width" value="1338" />
     <option name="height" value="1038" />
   </component>
@@ -251,51 +413,6 @@
           <expand>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="jedis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="e3-content" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -315,6 +432,23 @@
               <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -326,8 +460,44 @@
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -335,27 +505,48 @@
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-portal-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jedis" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e3-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -418,7 +609,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JedisClientTest.testJedisClient">
+  <component name="RunManager" selected="Maven.content-service">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -786,7 +977,7 @@
       <workItem from="1533526049898" duration="32393000" />
       <workItem from="1533796419931" duration="21214000" />
       <workItem from="1533982036786" duration="13572000" />
-      <workItem from="1533997790301" duration="6526000" />
+      <workItem from="1533997790301" duration="11644000" />
     </task>
     <task id="LOCAL-00001" summary="剥离出manager-web 使用dubbo远程调用">
       <created>1533466899725</created>
@@ -872,43 +1063,50 @@
       <option name="project" value="LOCAL" />
       <updated>1533996707313</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="redisClient测试完成">
+      <created>1534055796835</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1534055796835</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JedisClientTest - 2018.08.12 at 12h 13m 04s.xml">
-      <configuration name="JedisClientTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClientTest - 2018.08.12 at 12h 13m 38s.xml">
-      <configuration name="JedisClientTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 12h 15m 45s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 12h 16m 02s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 12h 17m 13s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 12h 17m 34s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 12h 18m 00s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 14h 27m 37s.xml">
       <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisTest_testJedisCluster - 2018.08.12 at 12h 14m 18s.xml">
-      <configuration name="JedisTest.testJedisCluster" configurationId="JUnit" />
+    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 19m 48s.xml">
+      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 20m 08s.xml">
+      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 21m 53s.xml">
+      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 22m 08s.xml">
+      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 22m 47s.xml">
+      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 22m 55s.xml">
+      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 23m 11s.xml">
+      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JedisTest_testJedisCluster - 2018.08.12 at 13h 59m 18s.xml">
       <configuration name="JedisTest.testJedisCluster" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JedisTest_testJedisCluster - 2018.08.12 at 15h 22m 16s.xml">
+      <configuration name="JedisTest.testJedisCluster" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111969000" />
+    <option name="totallyTimeSpent" value="117087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -925,18 +1123,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2333691" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58892816" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5884434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.590106" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5884434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32391047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17703862" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18562232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -994,7 +1192,8 @@
     <MESSAGE value="添加内容模块,完成内容分类展示" />
     <MESSAGE value="完成内容分类删除,添加,内容添加删除,首页轮播图展示" />
     <MESSAGE value="调整common模块包名，添加redis,redis集群测试未完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整common模块包名，添加redis,redis集群测试未完成" />
+    <MESSAGE value="redisClient测试完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="redisClient测试完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1005,17 +1204,11 @@
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisSlotBasedConnectionHandler.class</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="61" />
+      <option name="time" value="75" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1049,139 +1242,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-tx.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/dubbo.properties" />
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="47" column="76" lean-forward="false" selection-start-line="47" selection-start-column="76" selection-end-line="47" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/dubbo.properties" />
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/redis.properties" />
-    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="611" column="17" lean-forward="false" selection-start-line="611" selection-start-column="17" selection-end-line="611" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-tx.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="210" column="0" lean-forward="false" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -1226,10 +1286,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#3031#3032#0" expanded="true" />
-            <element signature="e#3086#3087#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,9 +1302,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,15 +1318,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding>
-            <element signature="e#3707#3708#0" expanded="true" />
-            <element signature="e#3850#3851#0" expanded="true" />
-            <element signature="e#3896#3897#0" expanded="true" />
-            <element signature="e#4075#4076#0" expanded="true" />
-            <element signature="e#4116#4117#0" expanded="true" />
-            <element signature="e#7802#7803#0" expanded="true" />
-            <element signature="e#7836#7837#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,11 +1342,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <element signature="e#2433#2434#0" expanded="true" />
-            <element signature="e#2491#2492#0" expanded="true" />
-            <element signature="e#2538#2539#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,9 +1381,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#1383#1384#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1364,10 +1405,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="52" column="59" lean-forward="false" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
-          <folding>
-            <element signature="e#10163#10164#0" expanded="true" />
-            <element signature="e#10221#10222#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,14 +1429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisSlotBasedConnectionHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1435,27 +1465,299 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java">
+    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentCategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="53" column="28" lean-forward="false" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        <state relative-caret-position="200">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java">
+    <entry file="file://$PROJECT_DIR$/../e3-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="574">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="6787" column="26" lean-forward="false" selection-start-line="6787" selection-start-column="26" selection-end-line="6787" selection-end-column="26" />
+          <folding>
+            <element signature="e#244767#244768#0" expanded="false" />
+            <element signature="e#244811#244812#0" expanded="false" />
+            <element signature="e#246247#246248#0" expanded="false" />
+            <element signature="e#246321#246322#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="87" lean-forward="false" selection-start-line="13" selection-start-column="87" selection-end-line="13" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisSlotBasedConnectionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/java/cn/haohaoli/poratl/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#1249#1273#0" expanded="false" />
+            <element signature="e#1331#1355#0" expanded="false" />
+            <element signature="e#1500#1524#0" expanded="false" />
+            <element signature="e#1582#1606#0" expanded="false" />
+            <element signature="e#1751#1775#0" expanded="false" />
+            <element signature="e#1833#1857#0" expanded="false" />
+            <element signature="e#2002#2026#0" expanded="false" />
+            <element signature="e#2084#2108#0" expanded="false" />
+            <element signature="e#2253#2277#0" expanded="false" />
+            <element signature="e#2335#2359#0" expanded="false" />
+            <element signature="e#2504#2528#0" expanded="false" />
+            <element signature="e#2586#2610#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="55" column="58" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="55" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar!/org/aspectj/lang/annotation/Aspect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="147" column="52" lean-forward="false" selection-start-line="147" selection-start-column="52" selection-end-line="147" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/mapper/SqlHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="246" column="30" lean-forward="false" selection-start-line="246" selection-start-column="30" selection-end-line="246" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="45" />
+          <folding>
+            <marker date="1533445095791" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1533445095791" expanded="false" signature="148:643" ph="..." />
+            <marker date="1533445095791" expanded="true" signature="986:993" ph="{}" />
+            <marker date="1533445095791" expanded="true" signature="1050:1061" ph=" { " />
+            <marker date="1533445095791" expanded="true" signature="1098:1104" ph=" }" />
+            <marker date="1533445095791" expanded="false" signature="1169:1180" ph=" { " />
+            <marker date="1533445095791" expanded="false" signature="1219:1225" ph=" }" />
+            <marker date="1533445095791" expanded="false" signature="1284:1295" ph=" { " />
+            <marker date="1533445095791" expanded="false" signature="1332:1338" ph=" }" />
+            <marker date="1533445095791" expanded="true" signature="1402:1478" ph="{...}" />
+            <marker date="1533445095791" expanded="false" signature="1535:1546" ph=" { " />
+            <marker date="1533445095791" expanded="false" signature="1604:1610" ph=" }" />
+            <marker date="1533445095791" expanded="true" signature="1670:1889" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="1964:2294" ph="{...}" />
+            <marker date="1533445095791" expanded="false" signature="2362:2373" ph=" { " />
+            <marker date="1533445095791" expanded="false" signature="2418:2424" ph=" }" />
+            <marker date="1533445095791" expanded="true" signature="2478:2988" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="3045:3469" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="3530:3837" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="3899:4234" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="4317:4620" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="4705:5037" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="5133:5279" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="5373:5548" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="5644:5979" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="6046:6359" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="6459:7389" ph="{...}" />
+            <marker date="1533445095791" expanded="false" signature="7455:7466" ph=" { " />
+            <marker date="1533445095791" expanded="false" signature="7504:7510" ph=" }" />
+            <marker date="1533445095791" expanded="true" signature="7596:8049" ph="{...}" />
+            <marker date="1533445095791" expanded="false" signature="8117:8128" ph=" { " />
+            <marker date="1533445095791" expanded="false" signature="8172:8178" ph=" }" />
+            <marker date="1533445095791" expanded="true" signature="8255:8327" ph="{...}" />
+            <marker date="1533445095791" expanded="false" signature="8385:8396" ph=" { " />
+            <marker date="1533445095791" expanded="false" signature="8433:8439" ph=" }" />
+            <marker date="1533445095791" expanded="true" signature="8514:8603" ph="{...}" />
+            <marker date="1533445095791" expanded="false" signature="8652:8663" ph=" { " />
+            <marker date="1533445095791" expanded="false" signature="8706:8712" ph=" }" />
+            <marker date="1533445095791" expanded="false" signature="8763:8774" ph=" { " />
+            <marker date="1533445095791" expanded="false" signature="8818:8824" ph=" }" />
+            <marker date="1533445095791" expanded="true" signature="8909:9518" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="9594:9822" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="9907:10283" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="10346:10613" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="10692:11059" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="11109:12766" ph="{...}" />
+            <marker date="1533445095791" expanded="false" signature="12832:12843" ph=" { " />
+            <marker date="1533445095791" expanded="false" signature="12892:12898" ph=" }" />
+            <marker date="1533445095791" expanded="true" signature="12967:14274" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="14347:14675" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="14755:14846" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="14918:14997" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="15095:15908" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="15972:16310" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="16316:16334" ph="/**...*/" />
+            <marker date="1533445095791" expanded="true" signature="16405:16515" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="16587:16907" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="16991:17297" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="17418:17845" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="17851:17869" ph="/**...*/" />
+            <marker date="1533445095791" expanded="true" signature="17874:17899" ph="@{...}" />
+            <marker date="1533445095791" expanded="true" signature="17999:18619" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="18680:18848" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="18922:18989" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="19065:19145" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="19218:19591" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="19659:20083" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="20186:20679" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="20791:20879" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="21023:21745" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="21837:21911" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="22050:22745" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="22851:22931" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="23069:24011" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="24094:24154" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="24232:24564" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="24693:25134" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="25233:25305" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="25385:25447" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="25535:26000" ph="{...}" />
+            <marker date="1533445095791" expanded="true" signature="26079:26135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="81" column="31" lean-forward="true" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

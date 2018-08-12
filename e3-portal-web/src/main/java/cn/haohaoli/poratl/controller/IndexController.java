@@ -26,7 +26,7 @@ public class IndexController {
 
     @GetMapping("/index")
     public ModelAndView index () {
-        List<TbContent> contentList = tbContentService.selectList(new EntityWrapper<TbContent>().eq("category_id", sildeId));
+        List<TbContent> contentList = tbContentService.selectListByCategoryId(sildeId);
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("sildeList", contentList);
         modelAndView.setViewName("index");

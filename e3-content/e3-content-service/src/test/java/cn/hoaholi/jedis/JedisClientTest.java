@@ -17,8 +17,8 @@ public class JedisClientTest {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/spring-redis.xml");
         //从容器中获取jedisClient对象
         JedisClient bean = applicationContext.getBean(JedisClient.class);
-        bean.set("myredis", "redis");
-        System.out.println(bean.get("myredis"));
+        bean.set("cluster12", "redis cluster");
+        System.out.println(bean.get("cluster12"));
     }
 
 }

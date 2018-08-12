@@ -3,6 +3,7 @@ package cn.haohaoli.controller;
 import cn.haohaoli.common.pojo.PicUploadResult;
 import cn.haohaoli.common.utils.TxCosClient;
 import com.qcloud.cos.model.ObjectMetadata;
+import org.aspectj.lang.annotation.Aspect;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
