@@ -2,22 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6398c42f-a2f7-4e18-915a-86821fca1439" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/enums/SolrSearchField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/pojo/SearchItem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/pojo/SearchResult.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/SearchItemController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/java/cn/haohaoli/search/controller/SearchController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/resources/config.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/resources/spring/spring-mvc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/jsp/commons/mainmenu.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/jsp/search.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/css/all.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/css/base_w1200.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/css/common.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/css/jquery.alerts.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/css/jquery.autocomplete.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/css/productList.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/bottom_sm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/cate_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/dq_icon2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/error_img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/foot/cd.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/foot/logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/foot/qc.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/foot/qq.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/foot/sf.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/foot_bottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/g_loading.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/header.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/042cc65a4fb9899878f2f37235ca1793.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/1463455028.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/1463456854.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/1468837571.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/1471311388.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/1471311447.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/1472521203.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/1472521236.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/1472521250.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/1748dcf682d7f595012e4309695d71d9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/20160829181637762.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/26336113289bf7273823080488a9d200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/2a3ba6ffb33d8fca0dc848f94e3d99d8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/49111b8189bf71370cdb145f8fdb1195.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/4dd7317569a06a451c1fe7762d6bf928.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/516e4d058d1d65a3506e179642297b2d.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/51e357022c1f826f13211222831a4b13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/600c425e04b41f49e451d2fdbafb6e45.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/751d2091c008c2a49c1934545730f041.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/757e35fab995b43c23b4396dc3ba4269.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/7a80fda907bf5107f6967add2a304a51.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/838abc2055e36f423701de255bbc9914.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/8f42d6d2deead3da7d50c8a702a3c939.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/95256f5b2857ec28914f631532508d76.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/aa472cb9f9624d22d1fcfd1c4dffbe42.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/c11e0d59289782b09ea1cbcb98070017.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/c3449a684bebe21f5b6c6c79e46791ff.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/cf33d7d36f1128577782ded21fe812a9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/ddf3f66b114f3a3bfbbe0b47693cdbf0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/de66a063548629c8d4e639523d8c9c6e.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/e886f76e03f7a3596033eb34ca362339.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/html/logo_word.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/indexImg20130307.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/index_icon_new.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/indexsprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/kxicon.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/left_lm_m_a.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/logo66.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/images/productList.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/js/NewVersion.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/js/cart.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/js/common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/js/cookie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/js/e3mall.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/js/jquery-1.5.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/js/jquery.alerts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/js/jquery.cookie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search-web/src/main/webapp/js/shadow.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-interface/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-interface/src/main/java/cn/haohaoli/search/service/SearchItemService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-interface/src/main/java/cn/haohaoli/search/service/SearchService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/dao/SearchDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/mapper/ItemMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/service/impl/SearchItemServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/service/impl/SearchServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/config.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/mapper/ItemMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/mybaits/mybaits-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/spring/spring-dao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/spring/spring-service.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/spring/spring-solr.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/e3-search-service/src/test/java/cn/haohaoli/solrj/TestSolrj.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../e3-search/pom.xml" />
       <change beforePath="$PROJECT_DIR$/../e3-common/e3-common.iml" afterPath="$PROJECT_DIR$/../e3-common/e3-common.iml" />
-      <change beforePath="$PROJECT_DIR$/../e3-common/pom.xml" afterPath="$PROJECT_DIR$/../e3-common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentService.java" afterPath="$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentService.java" />
-      <change beforePath="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentServiceImpl.java" afterPath="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClient.java" afterPath="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClient.java" />
+      <change beforePath="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientCluster.java" afterPath="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientCluster.java" />
+      <change beforePath="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientPool.java" afterPath="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientPool.java" />
       <change beforePath="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/config.properties" />
+      <change beforePath="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-redis.xml" afterPath="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-redis.xml" />
       <change beforePath="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java" afterPath="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java" afterPath="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java" />
+      <change beforePath="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java" afterPath="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager-web/pom.xml" afterPath="$PROJECT_DIR$/../e3-manager-web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml" />
       <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/e3-manager-dao.iml" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-dao/e3-manager-dao.iml" />
       <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-interface/e3-manager-interface.iml" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-interface/e3-manager-interface.iml" />
       <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-model/e3-manager-model.iml" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-model/e3-manager-model.iml" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager-service/e3-manager-service.iml" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager-service/e3-manager-service.iml" />
-      <change beforePath="$PROJECT_DIR$/../e3-manager/e3-manager.iml" afterPath="$PROJECT_DIR$/../e3-manager/e3-manager.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/e3_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/e3_manager_web_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../e3-portal-web/src/main/java/cn/haohaoli/poratl/controller/IndexController.java" afterPath="$PROJECT_DIR$/../e3-portal-web/src/main/java/cn/haohaoli/poratl/controller/IndexController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,6 +139,10 @@
     <ignored path="$PROJECT_DIR$/../e3-content/target/" />
     <ignored path="$PROJECT_DIR$/../e3-content/e3-content-interface/target/" />
     <ignored path="$PROJECT_DIR$/../e3-content/e3-content-service/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-search/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-search/e3-search-interface/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-search/e3-search-service/target/" />
+    <ignored path="$PROJECT_DIR$/../e3-search-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,42 +173,22 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="JedisTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="SearchService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-interface/src/main/java/cn/haohaoli/search/service/SearchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="55" column="58" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="55" selection-end-column="58" />
+            <state relative-caret-position="100">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JedisClientTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java">
+      <file leaf-file-name="SearchServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/service/impl/SearchServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbContentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbContentServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="81" column="31" lean-forward="true" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+            <state relative-caret-position="468">
+              <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,134 +196,86 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringUtils.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/util/StringUtils.class">
+      <file leaf-file-name="spring-service.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/spring/spring-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="45" />
-              <folding>
-                <marker date="1533445095791" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1533445095791" expanded="false" signature="148:643" ph="..." />
-                <marker date="1533445095791" expanded="true" signature="986:993" ph="{}" />
-                <marker date="1533445095791" expanded="true" signature="1050:1061" ph=" { " />
-                <marker date="1533445095791" expanded="true" signature="1098:1104" ph=" }" />
-                <marker date="1533445095791" expanded="false" signature="1169:1180" ph=" { " />
-                <marker date="1533445095791" expanded="false" signature="1219:1225" ph=" }" />
-                <marker date="1533445095791" expanded="false" signature="1284:1295" ph=" { " />
-                <marker date="1533445095791" expanded="false" signature="1332:1338" ph=" }" />
-                <marker date="1533445095791" expanded="true" signature="1402:1478" ph="{...}" />
-                <marker date="1533445095791" expanded="false" signature="1535:1546" ph=" { " />
-                <marker date="1533445095791" expanded="false" signature="1604:1610" ph=" }" />
-                <marker date="1533445095791" expanded="true" signature="1670:1889" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="1964:2294" ph="{...}" />
-                <marker date="1533445095791" expanded="false" signature="2362:2373" ph=" { " />
-                <marker date="1533445095791" expanded="false" signature="2418:2424" ph=" }" />
-                <marker date="1533445095791" expanded="true" signature="2478:2988" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="3045:3469" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="3530:3837" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="3899:4234" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="4317:4620" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="4705:5037" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="5133:5279" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="5373:5548" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="5644:5979" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="6046:6359" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="6459:7389" ph="{...}" />
-                <marker date="1533445095791" expanded="false" signature="7455:7466" ph=" { " />
-                <marker date="1533445095791" expanded="false" signature="7504:7510" ph=" }" />
-                <marker date="1533445095791" expanded="true" signature="7596:8049" ph="{...}" />
-                <marker date="1533445095791" expanded="false" signature="8117:8128" ph=" { " />
-                <marker date="1533445095791" expanded="false" signature="8172:8178" ph=" }" />
-                <marker date="1533445095791" expanded="true" signature="8255:8327" ph="{...}" />
-                <marker date="1533445095791" expanded="false" signature="8385:8396" ph=" { " />
-                <marker date="1533445095791" expanded="false" signature="8433:8439" ph=" }" />
-                <marker date="1533445095791" expanded="true" signature="8514:8603" ph="{...}" />
-                <marker date="1533445095791" expanded="false" signature="8652:8663" ph=" { " />
-                <marker date="1533445095791" expanded="false" signature="8706:8712" ph=" }" />
-                <marker date="1533445095791" expanded="false" signature="8763:8774" ph=" { " />
-                <marker date="1533445095791" expanded="false" signature="8818:8824" ph=" }" />
-                <marker date="1533445095791" expanded="true" signature="8909:9518" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="9594:9822" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="9907:10283" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="10346:10613" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="10692:11059" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="11109:12766" ph="{...}" />
-                <marker date="1533445095791" expanded="false" signature="12832:12843" ph=" { " />
-                <marker date="1533445095791" expanded="false" signature="12892:12898" ph=" }" />
-                <marker date="1533445095791" expanded="true" signature="12967:14274" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="14347:14675" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="14755:14846" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="14918:14997" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="15095:15908" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="15972:16310" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="16316:16334" ph="/**...*/" />
-                <marker date="1533445095791" expanded="true" signature="16405:16515" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="16587:16907" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="16991:17297" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="17418:17845" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="17851:17869" ph="/**...*/" />
-                <marker date="1533445095791" expanded="true" signature="17874:17899" ph="@{...}" />
-                <marker date="1533445095791" expanded="true" signature="17999:18619" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="18680:18848" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="18922:18989" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="19065:19145" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="19218:19591" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="19659:20083" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="20186:20679" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="20791:20879" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="21023:21745" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="21837:21911" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="22050:22745" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="22851:22931" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="23069:24011" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="24094:24154" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="24232:24564" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="24693:25134" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="25233:25305" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="25385:25447" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="25535:26000" ph="{...}" />
-                <marker date="1533445095791" expanded="true" signature="26079:26135" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-portal-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="147" column="52" lean-forward="false" selection-start-line="147" selection-start-column="52" selection-end-line="147" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PictureController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="475">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContentController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/ContentController.java">
+      <file leaf-file-name="SearchController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-search-web/src/main/java/cn/haohaoli/search/controller/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="-29">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-search-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-search-web/src/main/resources/spring/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSolrj.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/test/java/cn/haohaoli/solrj/TestSolrj.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/jsp/search.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-search-web/src/main/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/dao/SearchDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -248,7 +289,9 @@
         <option value="mybatis-config" />
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
+        <option value="mybatis-mapper" />
         <option value="spring-beans.schema" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -281,6 +324,9 @@
       <find>/content/category</find>
       <find>redis.cluster2.host</find>
       <find>json</find>
+      <find>pass</find>
+      <find>password</find>
+      <find>solrj</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -297,57 +343,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-model/src/main/java/cn/haohaoli/model/Content.java" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-model/src/main/java/cn/haohaoli/model/TbContent.java" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/java/cn/haohaoli/service/impl/ItemCatServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-interface/src/main/java/cn/haohaoli/service/TbItemCatService.java" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-model/src/main/java/cn/haohaoli/model/TbContentCategory.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c52ec977-67ab-43c0-bc03-b0fdfdb6dc10/console.sql" />
-        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentCategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentCategoryService.java" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/webapp/WEB-INF/jsp/content-category.jsp" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/ContentCatController.java" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/Content.java" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/pojo/GridResult.java" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/../e3-portal-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../e3-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/ContentController.java" />
-        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/jedis.java" />
-        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/jedis/JedisClientCluster.java" />
-        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/jedis/JedisClientPool.java" />
-        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/java/cn/haohaoli/service/impl/TbItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/zookeeper.properties" />
-        <option value="$PROJECT_DIR$/../e3-portal-web/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/../e3-portal-web/src/main/resources/spring/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/dubbo.properties" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/spring/spring-service.xml" />
-        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-service/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/dubbo.properties" />
-        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/redis.properties" />
-        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/redis/redis-config.xml" />
-        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientCluster.java" />
-        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientPool.java" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClient.java" />
-        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentService.java" />
+        <option value="$PROJECT_DIR$/../e3-portal-web/src/main/java/cn/haohaoli/poratl/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java" />
+        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../e3-content/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-search/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-common/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/../e3-portal-web/src/main/java/cn/haohaoli/poratl/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/pojo/SearchItem.java" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-interface/src/main/java/cn/haohaoli/search/mapper/ItemMapper.java" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/service/impl/mapper/ItemMapper.java" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/mapper/ItemMapper.java" />
+        <option value="$PROJECT_DIR$/../e3-manager/e3-manager-dao/src/main/resources/mapper/ItemMapper.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c52ec977-67ab-43c0-bc03-b0fdfdb6dc10/console.sql" />
+        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java" />
+        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientPool.java" />
+        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClient.java" />
+        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientCluster.java" />
         <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java" />
-        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java" />
-        <option value="$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/SearchItemController.java" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/mapper/ItemMapper.xml" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/mybaits/mybaits-config.xml" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/spring/spring-solr.xml" />
+        <option value="$PROJECT_DIR$/../e3-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../e3-search-web/src/main/webapp/css/all.css" />
+        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/pojo/SearchResult.java" />
+        <option value="$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/enums/SolrSearchField.java" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-interface/src/main/java/cn/haohaoli/search/service/SearchItemService.java" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/service/impl/SearchItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-interface/src/main/java/cn/haohaoli/search/service/SearchService.java" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/service/impl/SearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/spring/spring-service.xml" />
+        <option value="$PROJECT_DIR$/../e3-search-web/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/../e3-search-web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/dao/SearchDao.java" />
+        <option value="$PROJECT_DIR$/../e3-search-web/src/main/java/cn/haohaoli/search/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/jsp/search.jsp" />
+        <option value="$PROJECT_DIR$/../e3-search/e3-search-service/src/test/java/cn/haohaoli/solrj/TestSolrj.java" />
       </list>
     </option>
   </component>
@@ -369,15 +415,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="e3-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="e3-search" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="e3-content" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="e3-content" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="e3-search" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -385,8 +427,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-68" />
-    <option name="y" value="-27" />
+    <option name="x" value="407" />
+    <option name="y" value="379" />
     <option name="width" value="1338" />
     <option name="height" value="1038" />
   </component>
@@ -406,160 +448,86 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-content" type="462c0819:PsiDirectoryNode" />
-              <item name="e3-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-portal-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search" type="462c0819:PsiDirectoryNode" />
+              <item name="e3-search-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e3-portal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e3-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="solrj" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../e3-content" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../e3-search" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -570,31 +538,32 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.haohaoli.content.service.impl" />
-      <recent name="cn.haohaoli.service.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-search\e3-search-service\src\main\resources\mapper" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-content\e3-content-service\src\main\resources\spring" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager-web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager-web\src\main\webapp\WEB-INF\jsp\rest\page" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager-web\src\main\webapp" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="cn.haohaoli.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-search-web\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-search-web\src\main\webapp" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-search-web\src\main\resources" />
+      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-search\e3-search-service\src\main\webapp" />
       <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-service\src\main\resources" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-content\e3-content-service\src\main\resources" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-common\src\main\java\cn\haohaoli\jedis" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-content\e3-content-service\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-portal-web\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.haohaoli.service.impl" />
       <recent name="cn.haohaoli.poratl.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-content\e3-content-service\src\main\resources\spring" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager-web\src\main\webapp\WEB-INF\jsp" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager-web\src\main\webapp\WEB-INF\jsp\rest\page" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager-web\src\main\webapp" />
-      <recent name="C:\Users\wenha\Desktop\分布式项目\宜立方\e3-manager\e3-manager-web\src\main\webapp" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.haohaoli.search.service.impl" />
+      <recent name="cn.haohaoli.content.service.impl" />
+      <recent name="cn.haohaoli.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -609,7 +578,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.content-service">
+  <component name="RunManager" selected="Maven.search-web">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -631,44 +600,19 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="JedisClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSolrj.addDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.hoaholi.jedis.*" />
+          <option name="PATTERN" value="cn.haohaoli.solrj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="e3-content-service" />
+      <module name="e3-search-service" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.hoaholi.jedis" />
-      <option name="MAIN_CLASS_NAME" value="cn.hoaholi.jedis.JedisClientTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="JedisClientTest.testJedisClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.hoaholi.jedis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="e3-content-service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.hoaholi.jedis" />
-      <option name="MAIN_CLASS_NAME" value="cn.hoaholi.jedis.JedisClientTest" />
-      <option name="METHOD_NAME" value="testJedisClient" />
+      <option name="PACKAGE_NAME" value="cn.haohaoli.solrj" />
+      <option name="MAIN_CLASS_NAME" value="cn.haohaoli.solrj.TestSolrj" />
+      <option name="METHOD_NAME" value="addDocument" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -681,19 +625,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="JedisTest.testJedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSolrj.addDocumentSpring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.hoaholi.jedis.*" />
+          <option name="PATTERN" value="cn.haohaoli.solrj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="e3-content-service" />
+      <module name="e3-search-service" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.hoaholi.jedis" />
-      <option name="MAIN_CLASS_NAME" value="cn.hoaholi.jedis.JedisTest" />
-      <option name="METHOD_NAME" value="testJedis" />
+      <option name="PACKAGE_NAME" value="cn.haohaoli.solrj" />
+      <option name="MAIN_CLASS_NAME" value="cn.haohaoli.solrj.TestSolrj" />
+      <option name="METHOD_NAME" value="addDocumentSpring" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -706,19 +650,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="JedisTest.testJedisCluster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSolrj.complexQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.hoaholi.jedis.*" />
+          <option name="PATTERN" value="cn.haohaoli.solrj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="e3-content-service" />
+      <module name="e3-search-service" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.hoaholi.jedis" />
-      <option name="MAIN_CLASS_NAME" value="cn.hoaholi.jedis.JedisTest" />
-      <option name="METHOD_NAME" value="testJedisCluster" />
+      <option name="PACKAGE_NAME" value="cn.haohaoli.solrj" />
+      <option name="MAIN_CLASS_NAME" value="cn.haohaoli.solrj.TestSolrj" />
+      <option name="METHOD_NAME" value="complexQuery" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -731,19 +675,44 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="JedisTest.testJedisPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSolrj.delDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.hoaholi.jedis.*" />
+          <option name="PATTERN" value="cn.haohaoli.solrj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="e3-content-service" />
+      <module name="e3-search-service" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.hoaholi.jedis" />
-      <option name="MAIN_CLASS_NAME" value="cn.hoaholi.jedis.JedisTest" />
-      <option name="METHOD_NAME" value="testJedisPool" />
+      <option name="PACKAGE_NAME" value="cn.haohaoli.solrj" />
+      <option name="MAIN_CLASS_NAME" value="cn.haohaoli.solrj.TestSolrj" />
+      <option name="METHOD_NAME" value="delDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestSolrj.query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.haohaoli.solrj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="e3-search-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.haohaoli.solrj" />
+      <option name="MAIN_CLASS_NAME" value="cn.haohaoli.solrj.TestSolrj" />
+      <option name="METHOD_NAME" value="query" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -891,6 +860,52 @@
         </option>
       </MavenSettings>
     </configuration>
+    <configuration name="search-service" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../e3-search" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="search-web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../e3-search-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -931,24 +946,26 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Maven.manger-service" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.manger-web" />
-      <item index="2" class="java.lang.String" itemvalue="Maven.portal-web" />
-      <item index="3" class="java.lang.String" itemvalue="Maven.content-service" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.JedisTest.testJedis" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.JedisTest.testJedisPool" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.JedisTest.testJedisCluster" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.JedisClientTest.testJedisClient" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.JedisClientTest" />
+    <list size="11">
+      <item index="0" class="java.lang.String" itemvalue="Maven.search-web" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.manger-service" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.search-service" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.manger-web" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.portal-web" />
+      <item index="5" class="java.lang.String" itemvalue="Maven.content-service" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TestSolrj.delDocument" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.TestSolrj.addDocumentSpring" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.TestSolrj.addDocument" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.TestSolrj.query" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.TestSolrj.complexQuery" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JedisClientTest.testJedisClient" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.JedisTest.testJedisCluster" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.JedisClientTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.JedisTest.testJedisPool" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.JedisTest.testJedis" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSolrj.complexQuery" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSolrj.query" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSolrj.delDocument" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSolrj.addDocument" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSolrj.addDocumentSpring" />
       </list>
     </recent_temporary>
   </component>
@@ -977,7 +994,8 @@
       <workItem from="1533526049898" duration="32393000" />
       <workItem from="1533796419931" duration="21214000" />
       <workItem from="1533982036786" duration="13572000" />
-      <workItem from="1533997790301" duration="11644000" />
+      <workItem from="1533997790301" duration="16148000" />
+      <workItem from="1534133382623" duration="17670000" />
     </task>
     <task id="LOCAL-00001" summary="剥离出manager-web 使用dubbo远程调用">
       <created>1533466899725</created>
@@ -1070,52 +1088,58 @@
       <option name="project" value="LOCAL" />
       <updated>1534055796835</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="首页内容加入缓存">
+      <created>1534060897605</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1534060897605</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 14h 27m 37s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    <history-entry file="TestSolrj_addDocument - 2018.08.13 at 15h 58m 28s.xml">
+      <configuration name="TestSolrj.addDocument" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 19m 48s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    <history-entry file="TestSolrj_addDocument - 2018.08.13 at 15h 58m 44s.xml">
+      <configuration name="TestSolrj.addDocument" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 20m 08s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    <history-entry file="TestSolrj_addDocument - 2018.08.13 at 15h 58m 56s.xml">
+      <configuration name="TestSolrj.addDocument" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 21m 53s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    <history-entry file="TestSolrj_addDocumentSpring - 2018.08.13 at 15h 57m 15s.xml">
+      <configuration name="TestSolrj.addDocumentSpring" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 22m 08s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    <history-entry file="TestSolrj_complexQuery - 2018.08.13 at 16h 35m 00s.xml">
+      <configuration name="TestSolrj.complexQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 22m 47s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    <history-entry file="TestSolrj_complexQuery - 2018.08.13 at 16h 35m 38s.xml">
+      <configuration name="TestSolrj.complexQuery" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 22m 55s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    <history-entry file="TestSolrj_delDocument - 2018.08.13 at 16h 02m 32s.xml">
+      <configuration name="TestSolrj.delDocument" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClientTest_testJedisClient - 2018.08.12 at 15h 23m 11s.xml">
-      <configuration name="JedisClientTest.testJedisClient" configurationId="JUnit" />
+    <history-entry file="TestSolrj_delDocument - 2018.08.13 at 16h 02m 38s.xml">
+      <configuration name="TestSolrj.delDocument" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisTest_testJedisCluster - 2018.08.12 at 13h 59m 18s.xml">
-      <configuration name="JedisTest.testJedisCluster" configurationId="JUnit" />
+    <history-entry file="TestSolrj_delDocument - 2018.08.13 at 16h 19m 05s.xml">
+      <configuration name="TestSolrj.delDocument" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisTest_testJedisCluster - 2018.08.12 at 15h 22m 16s.xml">
-      <configuration name="JedisTest.testJedisCluster" configurationId="JUnit" />
+    <history-entry file="TestSolrj_query - 2018.08.13 at 16h 24m 23s.xml">
+      <configuration name="TestSolrj.query" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117087000" />
+    <option name="totallyTimeSpent" value="139261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18293992" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36587983" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1123,18 +1147,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2333691" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5884434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5559482" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5884434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61366314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32391047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18562232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31919906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42756185" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24195279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1144,7 +1169,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1193,7 +1217,9 @@
     <MESSAGE value="完成内容分类删除,添加,内容添加删除,首页轮播图展示" />
     <MESSAGE value="调整common模块包名，添加redis,redis集群测试未完成" />
     <MESSAGE value="redisClient测试完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="redisClient测试完成" />
+    <MESSAGE value="首页内容加入缓存" />
+    <MESSAGE value="添加solr搜索 完成搜索" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加solr搜索 完成搜索" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1208,7 +1234,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="75" />
+      <option name="time" value="83" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1242,370 +1268,23 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/resources/spring/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+        <state relative-caret-position="128">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/util/SafeEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/util/JedisClusterCRC16.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/exceptions/JedisConnectionException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar!/org/apache/commons/pool2/impl/LinkedBlockingDeque.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="335" column="0" lean-forward="false" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar!/org/apache/commons/pool2/impl/BaseGenericObjectPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/BinaryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Client.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Connection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/BinaryJedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientCluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#212#213#0" expanded="false" />
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#395#396#0" expanded="false" />
-            <element signature="e#437#438#0" expanded="false" />
-            <element signature="e#482#483#0" expanded="false" />
-            <element signature="e#517#518#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar!/org/apache/commons/pool2/impl/GenericObjectPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="500" column="0" lean-forward="false" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/util/Pool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisClusterInfoCache.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="52" column="59" lean-forward="false" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisClusterConnectionHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/BinaryJedisCluster.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisClusterCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisCluster.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="164" column="17" lean-forward="false" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/HostAndPort.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="6787" column="26" lean-forward="false" selection-start-line="6787" selection-start-column="26" selection-end-line="6787" selection-end-column="26" />
-          <folding>
-            <element signature="e#244767#244768#0" expanded="false" />
-            <element signature="e#244811#244812#0" expanded="false" />
-            <element signature="e#246247#246248#0" expanded="false" />
-            <element signature="e#246321#246322#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar!/org/apache/commons/lang3/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="87" lean-forward="false" selection-start-line="13" selection-start-column="87" selection-end-line="13" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisSlotBasedConnectionHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/java/cn/haohaoli/poratl/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-portal-web/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#1249#1273#0" expanded="false" />
-            <element signature="e#1331#1355#0" expanded="false" />
-            <element signature="e#1500#1524#0" expanded="false" />
-            <element signature="e#1582#1606#0" expanded="false" />
-            <element signature="e#1751#1775#0" expanded="false" />
-            <element signature="e#1833#1857#0" expanded="false" />
-            <element signature="e#2002#2026#0" expanded="false" />
-            <element signature="e#2084#2108#0" expanded="false" />
-            <element signature="e#2253#2277#0" expanded="false" />
-            <element signature="e#2335#2359#0" expanded="false" />
-            <element signature="e#2504#2528#0" expanded="false" />
-            <element signature="e#2586#2610#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="145">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="55" column="58" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="55" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/IService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-interface/src/main/java/cn/haohaoli/content/service/TbContentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-portal-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1613,151 +1292,463 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar!/org/aspectj/lang/annotation/Aspect.class">
+    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/resources/spring/spring-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="425">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#720#746#0" expanded="false" />
+            <element signature="e#792#818#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/service/impl/mapper/ItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/PictureController.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c52ec977-67ab-43c0-bc03-b0fdfdb6dc10/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="200">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/pojo/E3Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/test/java/cn/hoaholi/jedis/JedisClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/e3-search-service.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/pojo/SearchItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="24" />
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="29" />
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="22" />
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="24" />
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#358#359#0" expanded="false" />
+            <element signature="e#383#384#0" expanded="false" />
+            <element signature="e#419#420#0" expanded="false" />
+            <element signature="e#447#448#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+            <element signature="e#507#508#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#583#584#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#705#706#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
+            <element signature="e#807#808#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+            <element signature="e#881#882#0" expanded="false" />
+            <element signature="e#913#914#0" expanded="false" />
+            <element signature="e#941#942#0" expanded="false" />
+            <element signature="e#983#984#0" expanded="false" />
+            <element signature="e#1017#1018#0" expanded="false" />
+            <element signature="e#1057#1058#0" expanded="false" />
+            <element signature="e#1093#1094#0" expanded="false" />
+            <element signature="e#1151#1152#0" expanded="false" />
+            <element signature="e#1201#1202#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/7.3.1/solr-solrj-7.3.1.jar!/org/apache/solr/client/solrj/impl/HttpSolrClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="114" column="41" lean-forward="true" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/SearchItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/mybaits/mybaits-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/spring/spring-solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#703#716#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="7" column="74" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-portal-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="97" column="12" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="97" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search-web/src/main/webapp/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4900">
+          <caret line="196" column="49" lean-forward="true" selection-start-line="196" selection-start-column="49" selection-end-line="196" selection-end-column="49" />
+          <folding>
+            <marker date="1534147918100" expanded="true" signature="208362:208406" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.haohaoli.common.enums.SolrSearchField">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.haohaoli.common.enums.SolrSearchField</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.Enum</node>
+            <node x="" y="">cn.haohaoli.common.enums.SolrSearchField</node>
+            <node x="" y="">java.lang.Comparable</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="156.5" y="102.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/enums/SolrSearchField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#393#394#0" expanded="false" />
+            <element signature="e#424#425#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/jedis/JedisClientPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/mapper/ItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <marker date="1534146301149" expanded="true" signature="292:519" ph="SELECT i.id,... tb_item" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/mapper/ItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-interface/src/main/java/cn/haohaoli/search/service/SearchItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/service/impl/SearchItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="35" column="76" lean-forward="false" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-common/src/main/java/cn/haohaoli/common/pojo/SearchResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#324#325#0" expanded="false" />
+            <element signature="e#358#359#0" expanded="false" />
+            <element signature="e#410#411#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#572#573#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#692#693#0" expanded="false" />
+            <element signature="e#750#751#0" expanded="false" />
+            <element signature="e#790#791#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/css/e3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/webapp/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-interface/src/main/java/cn/haohaoli/search/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search-web/src/main/java/cn/haohaoli/search/controller/cn/haohaoli/search/controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search-web/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search-web/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-manager-web/src/main/java/cn/haohaoli/controller/ContentController.java">
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/service/impl/SearchServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="147" column="52" lean-forward="false" selection-start-line="147" selection-start-column="52" selection-end-line="147" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/mapper/SqlHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="246" column="30" lean-forward="false" selection-start-line="246" selection-start-column="30" selection-end-line="246" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/util/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="45" />
-          <folding>
-            <marker date="1533445095791" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1533445095791" expanded="false" signature="148:643" ph="..." />
-            <marker date="1533445095791" expanded="true" signature="986:993" ph="{}" />
-            <marker date="1533445095791" expanded="true" signature="1050:1061" ph=" { " />
-            <marker date="1533445095791" expanded="true" signature="1098:1104" ph=" }" />
-            <marker date="1533445095791" expanded="false" signature="1169:1180" ph=" { " />
-            <marker date="1533445095791" expanded="false" signature="1219:1225" ph=" }" />
-            <marker date="1533445095791" expanded="false" signature="1284:1295" ph=" { " />
-            <marker date="1533445095791" expanded="false" signature="1332:1338" ph=" }" />
-            <marker date="1533445095791" expanded="true" signature="1402:1478" ph="{...}" />
-            <marker date="1533445095791" expanded="false" signature="1535:1546" ph=" { " />
-            <marker date="1533445095791" expanded="false" signature="1604:1610" ph=" }" />
-            <marker date="1533445095791" expanded="true" signature="1670:1889" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="1964:2294" ph="{...}" />
-            <marker date="1533445095791" expanded="false" signature="2362:2373" ph=" { " />
-            <marker date="1533445095791" expanded="false" signature="2418:2424" ph=" }" />
-            <marker date="1533445095791" expanded="true" signature="2478:2988" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="3045:3469" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="3530:3837" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="3899:4234" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="4317:4620" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="4705:5037" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="5133:5279" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="5373:5548" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="5644:5979" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="6046:6359" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="6459:7389" ph="{...}" />
-            <marker date="1533445095791" expanded="false" signature="7455:7466" ph=" { " />
-            <marker date="1533445095791" expanded="false" signature="7504:7510" ph=" }" />
-            <marker date="1533445095791" expanded="true" signature="7596:8049" ph="{...}" />
-            <marker date="1533445095791" expanded="false" signature="8117:8128" ph=" { " />
-            <marker date="1533445095791" expanded="false" signature="8172:8178" ph=" }" />
-            <marker date="1533445095791" expanded="true" signature="8255:8327" ph="{...}" />
-            <marker date="1533445095791" expanded="false" signature="8385:8396" ph=" { " />
-            <marker date="1533445095791" expanded="false" signature="8433:8439" ph=" }" />
-            <marker date="1533445095791" expanded="true" signature="8514:8603" ph="{...}" />
-            <marker date="1533445095791" expanded="false" signature="8652:8663" ph=" { " />
-            <marker date="1533445095791" expanded="false" signature="8706:8712" ph=" }" />
-            <marker date="1533445095791" expanded="false" signature="8763:8774" ph=" { " />
-            <marker date="1533445095791" expanded="false" signature="8818:8824" ph=" }" />
-            <marker date="1533445095791" expanded="true" signature="8909:9518" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="9594:9822" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="9907:10283" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="10346:10613" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="10692:11059" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="11109:12766" ph="{...}" />
-            <marker date="1533445095791" expanded="false" signature="12832:12843" ph=" { " />
-            <marker date="1533445095791" expanded="false" signature="12892:12898" ph=" }" />
-            <marker date="1533445095791" expanded="true" signature="12967:14274" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="14347:14675" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="14755:14846" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="14918:14997" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="15095:15908" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="15972:16310" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="16316:16334" ph="/**...*/" />
-            <marker date="1533445095791" expanded="true" signature="16405:16515" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="16587:16907" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="16991:17297" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="17418:17845" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="17851:17869" ph="/**...*/" />
-            <marker date="1533445095791" expanded="true" signature="17874:17899" ph="@{...}" />
-            <marker date="1533445095791" expanded="true" signature="17999:18619" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="18680:18848" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="18922:18989" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="19065:19145" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="19218:19591" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="19659:20083" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="20186:20679" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="20791:20879" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="21023:21745" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="21837:21911" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="22050:22745" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="22851:22931" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="23069:24011" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="24094:24154" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="24232:24564" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="24693:25134" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="25233:25305" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="25385:25447" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="25535:26000" ph="{...}" />
-            <marker date="1533445095791" expanded="true" signature="26079:26135" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../e3-content/e3-content-service/src/main/java/cn/haohaoli/content/service/impl/TbContentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="81" column="31" lean-forward="true" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+        <state relative-caret-position="468">
+          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/java/cn/haohaoli/search/dao/SearchDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search-web/src/main/java/cn/haohaoli/search/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search-web/src/main/webapp/WEB-INF/jsp/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e3-search/e3-search-service/src/test/java/cn/haohaoli/solrj/TestSolrj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1815,7 +1806,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>e3-manager-interface</last-edited>
+          <last-edited>e3-search</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

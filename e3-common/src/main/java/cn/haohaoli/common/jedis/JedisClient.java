@@ -1,10 +1,16 @@
 package cn.haohaoli.common.jedis;
 
+/**
+ * @author Liwenhao
+ * @date 2018/8/13 15:13
+ */
 public interface JedisClient {
 
 	String set(String key, String value);
 
 	String get(String key);
+
+	Long del(String key);
 
 	Boolean exists(String key);
 

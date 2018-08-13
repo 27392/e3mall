@@ -9,16 +9,16 @@
 
     <!-- 单机版 -->
     <!-- 创建jedis连接池对象 -->
-    <!--<bean id="jedisPool" class="redis.clients.jedis.JedisPool">
+    <bean id="jedisPool" class="redis.clients.jedis.JedisPool">
         <constructor-arg name="host" value="${redis.standalone.host}"/>
         <constructor-arg name="port" value="${redis.standalone.port}"/>
     </bean>
     <bean id="jedisClientPool" class="cn.haohaoli.common.jedis.JedisClientPool">
         <property name="jedisPool" ref="jedisPool"/>
-    </bean>-->
+    </bean>
 
     <!-- 集群版 -->
-    <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
+    <!--<bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
         <constructor-arg name="nodes">
             <set>
                 <bean class="redis.clients.jedis.HostAndPort">
@@ -51,7 +51,7 @@
 
     <bean class="cn.haohaoli.common.jedis.JedisClientCluster">
         <property name="jedisCluster" ref="jedisCluster"/>
-    </bean>
+    </bean>-->
 
 
 

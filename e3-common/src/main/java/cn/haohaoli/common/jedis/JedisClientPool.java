@@ -32,6 +32,14 @@ public class JedisClientPool implements JedisClient {
 	}
 
 	@Override
+	public Long del(String key) {
+		Jedis jedis = jedisPool.getResource();
+		Long result = jedis.del(key);
+		jedis.close();
+		return result;
+	}
+
+	@Override
 	public Boolean exists(String key) {
 		Jedis jedis = jedisPool.getResource();
 		Boolean result = jedis.exists(key);

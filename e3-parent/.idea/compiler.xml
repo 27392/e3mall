@@ -15,6 +15,9 @@
         <module name="e3-manager-service" />
         <module name="e3-manager-web" />
         <module name="e3-portal-web" />
+        <module name="e3-search-interface" />
+        <module name="e3-search-service" />
+        <module name="e3-search-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +33,10 @@
       <module name="e3-manager-web" target="1.8" />
       <module name="e3-parent" target="1.8" />
       <module name="e3-portal-web" target="1.8" />
+      <module name="e3-search" target="1.8" />
+      <module name="e3-search-interface" target="1.8" />
+      <module name="e3-search-service" target="1.8" />
+      <module name="e3-search-web" target="1.8" />
       <module name="mybatis-generator" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -19,6 +19,7 @@ public class JedisClientTest {
         JedisClient bean = applicationContext.getBean(JedisClient.class);
         bean.set("cluster12", "redis cluster");
         System.out.println(bean.get("cluster12"));
+        bean.del("cluster12");
     }
 
 }

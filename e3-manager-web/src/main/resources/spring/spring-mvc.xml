@@ -50,4 +50,5 @@
     <dubbo:reference interface="cn.haohaoli.service.TbItemCatService" id="tbItemCatServiceImpl"/>
     <dubbo:reference interface="cn.haohaoli.content.service.TbContentCategoryService" id="tbContentCategoryServiceImpl"/>
     <dubbo:reference interface="cn.haohaoli.content.service.TbContentService" id="tbContentServiceImpl"/>
+    <dubbo:reference interface="cn.haohaoli.search.service.SearchItemService" id="searchItemServiceImpl"/>
 </beans>
