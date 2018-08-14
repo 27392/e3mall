@@ -18,6 +18,9 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <!-- 全局异常处理器 -->
+    <bean class="cn.haohaoli.search.controller.GlobalExceptionResolver"/>
+
     <!-- 引用dubbo服务 -->
     <dubbo:application name="${dubbo.application.name}"/>
     <dubbo:registry protocol="zookeeper" address="${dubbo.zookeeper.address}"/>

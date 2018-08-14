@@ -23,6 +23,11 @@
             <artifactId>e3-manager-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!-- 消息队列 -->
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-all</artifactId>
+        </dependency>
         <!-- Spring -->
         <dependency>
             <groupId>org.springframework</groupId>

@@ -28,7 +28,7 @@ public class SearchDao {
     @Autowired
     private HttpSolrClient httpSolrClient;
 
-    public SearchResult search(SolrQuery query) throws IOException, SolrServerException {
+    public SearchResult search(SolrQuery query) throws Exception {
         QueryResponse queryResponse = httpSolrClient.query(query);
         //高亮显示
         Map<String, Map<String, List<String>>> highlighting = queryResponse.getHighlighting();
