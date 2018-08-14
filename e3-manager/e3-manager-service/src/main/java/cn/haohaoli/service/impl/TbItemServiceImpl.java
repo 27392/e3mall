@@ -1,5 +1,6 @@
 package cn.haohaoli.service.impl;
 
+import cn.haohaoli.common.pojo.E3Result;
 import cn.haohaoli.mapper.TbItemDescMapper;
 import cn.haohaoli.mapper.TbItemMapper;
 import cn.haohaoli.model.TbItem;
@@ -7,9 +8,16 @@ import cn.haohaoli.model.TbItemDesc;
 import cn.haohaoli.service.TbItemService;
 import cn.haohaoli.common.utils.IDUtils;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import javax.jms.Destination;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
 import java.util.Date;
 
 /**
@@ -19,6 +27,12 @@ import java.util.Date;
 @Service
 public class TbItemServiceImpl extends ServiceImpl<TbItemMapper,TbItem> implements TbItemService {
 
+    @Autowired
+    private JmsTemplate jmsTemplate;
+
+    @Resource
+    private Destination topicDestination;
+
     @Resource
     private TbItemMapper tbItemMapper;
 
@@ -26,7 +40,7 @@ public class TbItemServiceImpl extends ServiceImpl<TbItemMapper,TbItem> implemen
     private TbItemDescMapper tbItemDescMapper;
 
     @Override
-    public boolean insert(TbItem tbItem, String desc) {
+    public E3Result insert(TbItem tbItem, String desc) {
         long itemId = IDUtils.genItemId();
         //设置ID
         tbItem.setId(itemId);
@@ -44,7 +58,12 @@ public class TbItemServiceImpl extends ServiceImpl<TbItemMapper,TbItem> implemen
         tbItemDesc.setItemDesc(desc);
         tbItemDesc.setCreated(new Date());
         tbItemDesc.setUpdated(new Date());
-        Integer insert1 = tbItemDescMapper.insert(tbItemDesc);
-        return false;
+        Integer rows = tbItemDescMapper.insert(tbItemDesc);
+        if (null != rows && rows >= 1) {
+            jmsTemplate.send(topicDestination, session -> session.createTextMessage(itemId + ""));
+            return E3Result.ok();
+        }
+        //发送一个
+        return E3Result.error("添加失败");
     }
 }

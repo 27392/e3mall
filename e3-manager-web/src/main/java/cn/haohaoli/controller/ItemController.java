@@ -43,11 +43,7 @@ public class ItemController {
      */
     @PostMapping("/save")
     public E3Result insertItem(TbItem tbItem, String desc){
-        boolean b = tbItemService.insert(tbItem, desc);
-        if (!b) {
-            return E3Result.error("添加成功");
-        }
-        return E3Result.ok();
+        return tbItemService.insert(tbItem, desc);
     }
 }
 

@@ -1,5 +1,6 @@
 package cn.haohaoli.service;
 
+import cn.haohaoli.common.pojo.E3Result;
 import cn.haohaoli.model.TbItem;
 import com.baomidou.mybatisplus.service.IService;
 
@@ -9,5 +10,5 @@ import com.baomidou.mybatisplus.service.IService;
  */
 public interface TbItemService extends IService<TbItem> {
 
-    boolean insert(TbItem tbItem, String desc);
+    E3Result insert(TbItem tbItem, String desc);
 }

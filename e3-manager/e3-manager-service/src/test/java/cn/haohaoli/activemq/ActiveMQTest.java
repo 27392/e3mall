@@ -44,7 +44,7 @@ public class ActiveMQTest {
         connection.close();
     }
 
-    @Test
+   /* @Test
     public void testQueueConsumer() throws Exception{
         //创建一个ConnectionFactory对象连接mq服务器
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://118.89.26.70:61616");
@@ -55,21 +55,17 @@ public class ActiveMQTest {
         //使用Connection对象创建一个Session对象
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
         //创建一个Destination对象queue对象
-        Queue queue = session.createQueue("test-queue");
+        Queue queue = session.createQueue("spring-queue");
         //使用Session对象创建一个消费者对象
         MessageConsumer consumer = session.createConsumer(queue);
         //接收消息
-        consumer.setMessageListener(new MessageListener(){
-
-            @Override
-            public void onMessage(Message message) {
-                TextMessage textMessag = (TextMessage) message;
-                try {
-                    String text = textMessag.getText();
-                    System.out.println(text);
-                } catch (JMSException e) {
-                    e.printStackTrace();
-                }
+        consumer.setMessageListener(message -> {
+            TextMessage textMessag = (TextMessage) message;
+            try {
+                String text = textMessag.getText();
+                System.out.println(text);
+            } catch (JMSException e) {
+                e.printStackTrace();
             }
         });
         //打印消息
@@ -78,7 +74,7 @@ public class ActiveMQTest {
         consumer.close();
         session.close();
         connection.close();
-    }
+    }*/
 
     @Test
     public void testTopicProducer () throws Exception {
@@ -94,7 +90,7 @@ public class ActiveMQTest {
         //  应答模式,一般是自动应答或者手动应答，一般是自动应答
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
         //使用Session对象创建一个Destination对象 两种形式queue、topic
-        Topic topic = session.createTopic("test-topic");
+        Topic topic = session.createTopic("itemAddTopic");
         //使用Session创建一个Producer对象
         MessageProducer producer = session.createProducer(topic);
         //创建一个消息Message对象 可以使用TextMessage

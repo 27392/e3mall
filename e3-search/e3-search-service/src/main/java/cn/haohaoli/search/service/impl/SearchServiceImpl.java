@@ -35,7 +35,6 @@ public class SearchServiceImpl implements SearchService {
             totalPage++;
         }
         search.setTotalPages(totalPage);
-        int s = 1/0;
         return search;
     }
 }

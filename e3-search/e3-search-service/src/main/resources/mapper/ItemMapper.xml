@@ -12,4 +12,15 @@
         FROM tb_item i LEFT JOIN tb_item_cat c ON i.cid = c.id
         WHERE i.status = 1
     </select>
+    <select id="selectByPrimaryId" resultType="cn.haohaoli.common.pojo.SearchItem">
+        SELECT
+          i.id,
+          i.title,
+          i.sell_point,
+          i.price,
+          i.image,
+          c.name AS category_name
+        FROM tb_item i LEFT JOIN tb_item_cat c ON i.cid = c.id
+        WHERE i.status = 1 AND i.id = #{itemId}
+    </select>
 </mapper>
