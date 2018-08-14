@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../e3-content" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3-item-web" />
     <file type="web" url="file://$PROJECT_DIR$/../e3-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/../e3-manager/e3-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/../e3-manager/e3-manager-web" />
@@ -20,6 +21,7 @@
         <option value="$PROJECT_DIR$/../e3-content/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-search/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-item-web/pom.xml" />
       </list>
     </option>
   </component>

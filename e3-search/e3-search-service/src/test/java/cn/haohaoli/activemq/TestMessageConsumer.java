@@ -10,9 +10,9 @@ import org.springframework.context.ApplicationContext;
  */
 public class TestMessageConsumer {
 
-    @Test
+    /*@Test
     public void msgConsumer() throws Exception{
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/spring-activemq.xml");
         System.in.read();
-    }
+    }*/
 }

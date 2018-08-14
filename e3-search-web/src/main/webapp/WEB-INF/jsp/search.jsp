@@ -50,7 +50,7 @@
             <div class="l-wrap">
 				<div class="pic">
 					<a class="trackref" href="http://localhost:8086/item/${item.id}.html" title="" target="_blank">
-						<img src="${item.image }" style="display:inline"/>
+						<img src="${item.images[0] }" style="display:inline"/>
 					</a>
 				</div>
 	            <div class="price">

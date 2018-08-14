@@ -1,5 +1,6 @@
 package cn.haohaoli.service.impl;
 
+import cn.haohaoli.common.jedis.JedisClient;
 import cn.haohaoli.common.pojo.E3Result;
 import cn.haohaoli.mapper.TbItemDescMapper;
 import cn.haohaoli.mapper.TbItemMapper;
@@ -7,17 +8,17 @@ import cn.haohaoli.model.TbItem;
 import cn.haohaoli.model.TbItemDesc;
 import cn.haohaoli.service.TbItemService;
 import cn.haohaoli.common.utils.IDUtils;
+import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.core.JmsTemplate;
-import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
 import javax.jms.Destination;
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.Session;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -27,8 +28,17 @@ import java.util.Date;
 @Service
 public class TbItemServiceImpl extends ServiceImpl<TbItemMapper,TbItem> implements TbItemService {
 
+    @Value("${item.key.prefix}")
+    private String prefix;
+
+    @Value("${item.key.expire}")
+    private int expire;
+
     @Autowired
     private JmsTemplate jmsTemplate;
+
+    @Autowired
+    private JedisClient jedisClient;
 
     @Resource
     private Destination topicDestination;
@@ -38,6 +48,29 @@ public class TbItemServiceImpl extends ServiceImpl<TbItemMapper,TbItem> implemen
 
     @Resource
     private TbItemDescMapper tbItemDescMapper;
+
+    @Override
+    public TbItem selectById(Serializable id) {
+        String key = prefix + ":" + id + ":BASE";
+        try {
+            String s = jedisClient.get(key);
+            if (!StringUtils.isEmpty(s)) {
+                return JSON.parseObject(s, TbItem.class);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        TbItem tbItem = super.selectById(id);
+        try {
+            if (tbItem != null) {
+                jedisClient.set(key, JSON.toJSONString(tbItem));
+                jedisClient.expire(key, expire);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return tbItem;
+    }
 
     @Override
     public E3Result insert(TbItem tbItem, String desc) {

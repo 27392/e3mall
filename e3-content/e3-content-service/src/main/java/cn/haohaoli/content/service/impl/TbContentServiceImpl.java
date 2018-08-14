@@ -78,7 +78,9 @@ public class TbContentServiceImpl extends ServiceImpl<TbContentMapper,TbContent>
         contentList = tbContentMapper.selectList((new EntityWrapper<TbContent>().eq("category_id", categoryId)));
         //添加到缓存
         try {
-            jedisClient.hset(contentListKey,categoryId + "", JSON.toJSONString(contentList));
+            if (contentList != null) {
+                jedisClient.hset(contentListKey,categoryId + "", JSON.toJSONString(contentList));
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
