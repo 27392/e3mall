@@ -27,6 +27,6 @@
 
     <!-- 切面 -->
     <aop:config>
-        <aop:advisor advice-ref="txAdvice" pointcut="execution(* cn.haohaoli.service.*.*(..))" />
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* cn.haohaoli.content.service.*.*(..))" />
     </aop:config>
 </beans>

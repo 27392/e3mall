@@ -5,7 +5,17 @@
          version="3.1">
     <display-name>e3-item-web</display-name>
 
-    <!-- 解决post乱码 -->
+    <!-- 加载spring容器 -->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:spring/spring-activemq.xml</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <!--&lt;!&ndash; 解决post乱码 &ndash;&gt;
     <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -19,11 +29,11 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
-    <!-- springMVC -->
+    &lt;!&ndash; springMVC &ndash;&gt;
     <servlet>
         <servlet-name>e3-item-web</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-        <!-- contextConfigLocation不是必须的， 如果不配置contextConfigLocation， springmvc的配置文件默认在：WEB-INF/servlet的name+"-servlet.xml" -->
+        &lt;!&ndash; contextConfigLocation不是必须的， 如果不配置contextConfigLocation， springmvc的配置文件默认在：WEB-INF/servlet的name+"-servlet.xml" &ndash;&gt;
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:spring/spring-mvc.xml</param-value>
@@ -33,6 +43,6 @@
     <servlet-mapping>
         <servlet-name>e3-item-web</servlet-name>
         <url-pattern>*.html</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping>-->
 
 </web-app>

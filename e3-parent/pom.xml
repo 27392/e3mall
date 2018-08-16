@@ -176,7 +176,11 @@
                 <version>${jsp-api.version}</version>
                 <scope>provided</scope>
             </dependency>
-
+            <dependency>
+                <groupId>org.freemarker</groupId>
+                <artifactId>freemarker</artifactId>
+                <version>${freemarker.version}</version>
+            </dependency>
             <!-- 腾讯云cos -->
             <dependency>
                 <groupId>com.qcloud</groupId>
