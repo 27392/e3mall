@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../e3-cart/e3-cart.iml" filepath="$PROJECT_DIR$/../e3-cart/e3-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../e3-cart/e3-cart-interface/e3-cart-interface.iml" filepath="$PROJECT_DIR$/../e3-cart/e3-cart-interface/e3-cart-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../e3-cart/e3-cart-service/e3-cart-service.iml" filepath="$PROJECT_DIR$/../e3-cart/e3-cart-service/e3-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../e3-cart-web/e3-cart-web.iml" filepath="$PROJECT_DIR$/../e3-cart-web/e3-cart-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../e3-common/e3-common.iml" filepath="$PROJECT_DIR$/../e3-common/e3-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/../e3-content/e3-content.iml" filepath="$PROJECT_DIR$/../e3-content/e3-content.iml" />
       <module fileurl="file://$PROJECT_DIR$/../e3-content/e3-content-interface/e3-content-interface.iml" filepath="$PROJECT_DIR$/../e3-content/e3-content-interface/e3-content-interface.iml" />

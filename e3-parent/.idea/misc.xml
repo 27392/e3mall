@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../e3-cart-web" />
     <file type="web" url="file://$PROJECT_DIR$/../e3-content" />
     <file type="web" url="file://$PROJECT_DIR$/../e3-item-web" />
     <file type="web" url="file://$PROJECT_DIR$/../e3-manager-web" />
@@ -26,6 +27,8 @@
         <option value="$PROJECT_DIR$/../e3-item-web/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-sso/pom.xml" />
         <option value="$PROJECT_DIR$/../e3-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-cart-web/pom.xml" />
       </list>
     </option>
   </component>
