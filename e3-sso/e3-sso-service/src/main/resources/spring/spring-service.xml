@@ -12,10 +12,11 @@
     <!-- 提供方应用信息 -->
     <dubbo:application name="${dubbo.application.name}"/>
     <dubbo:registry protocol="zookeeper" address="${dubbo.zookeeper.address}" timeout="${dubbo.zookeeper.timeout}"/>
-    <!-- dubbo协议在20881端口暴露服务 -->
+    <!-- dubbo协议在20883端口暴露服务 -->
     <dubbo:protocol name="dubbo" port="${dubbo.port}"/>
     <!-- 声明需要暴露的服务接口 -->
-    <!--<dubbo:service interface="cn.haohaoli.content.service.TbContentCategoryService" ref="tbContentCategoryServiceImpl"/>
-    <dubbo:service interface="cn.haohaoli.content.service.TbContentService" ref="tbContentServiceImpl"/>-->
+    <dubbo:service interface="cn.haohaoli.sso.service.RegisterService" ref="registerServiceImpl"/>
+    <dubbo:service interface="cn.haohaoli.sso.service.LoginService" ref="loginServiceImpl"/>
+    <dubbo:service interface="cn.haohaoli.sso.service.TokenService" ref="tokenServiceImpl"/>
 
 </beans>

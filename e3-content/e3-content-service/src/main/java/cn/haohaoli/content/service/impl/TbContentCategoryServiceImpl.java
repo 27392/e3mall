@@ -7,6 +7,7 @@ import cn.haohaoli.common.pojo.E3Result;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 
@@ -20,6 +21,7 @@ public class TbContentCategoryServiceImpl extends ServiceImpl<TbContentCategoryM
     @Autowired
     private TbContentCategoryMapper tbContentCategoryMapper;
 
+    @Transactional()
     @Override
     public E3Result insert(long parentId, String name) {
         TbContentCategory parent = tbContentCategoryMapper.selectById(parentId);

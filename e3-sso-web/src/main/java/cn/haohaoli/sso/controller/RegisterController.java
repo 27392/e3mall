@@ -1,17 +1,34 @@
 package cn.haohaoli.sso.controller;
 
-import org.springframework.stereotype.Controller;
+import cn.haohaoli.common.pojo.E3Result;
+import cn.haohaoli.model.TbUser;
+import cn.haohaoli.sso.service.LoginService;
+import cn.haohaoli.sso.service.RegisterService;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
 
 /**
  * @author Liwenhao
- * @date 2018/8/16 17:09
+ * @date 2018/8/24 11:03
  */
-@Controller
+@RestController
 public class RegisterController {
 
-    @GetMapping("/page/register")
-    public String showRegister(){
-        return "register";
+    @Resource
+    private RegisterService registerService;
+
+    @GetMapping("/user/check/{param}/{type}")
+    public E3Result checkData(@PathVariable String param ,@PathVariable int type){
+        return registerService.checkData(param, type);
+    }
+
+    @PostMapping("/user/register")
+    public E3Result register(TbUser tbUser){
+        return registerService.insert(tbUser);
     }
 }
