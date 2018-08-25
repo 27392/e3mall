@@ -2,6 +2,9 @@ package cn.haohaoli.common.jedis;
 
 import redis.clients.jedis.JedisCluster;
 
+import java.util.List;
+import java.util.Set;
+
 public class JedisClientCluster implements JedisClient {
 	
 	private JedisCluster jedisCluster;
@@ -57,6 +60,21 @@ public class JedisClientCluster implements JedisClient {
 	@Override
 	public String hget(String key, String field) {
 		return jedisCluster.hget(key, field);
+	}
+
+	@Override
+	public Set<String> hkeys(String key) {
+		return jedisCluster.hkeys(key);
+	}
+
+	@Override
+	public List<String> hvals(String key) {
+		return jedisCluster.hvals(key);
+	}
+
+	@Override
+	public Boolean hexists(String key, String field) {
+		return jedisCluster.hexists(key, field);
 	}
 
 	@Override

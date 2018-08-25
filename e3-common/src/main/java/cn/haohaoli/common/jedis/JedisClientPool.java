@@ -3,6 +3,9 @@ package cn.haohaoli.common.jedis;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
+import java.util.List;
+import java.util.Set;
+
 public class JedisClientPool implements JedisClient {
 	
 	private JedisPool jedisPool;
@@ -83,6 +86,30 @@ public class JedisClientPool implements JedisClient {
 	public String hget(String key, String field) {
 		Jedis jedis = jedisPool.getResource();
 		String result = jedis.hget(key, field);
+		jedis.close();
+		return result;
+	}
+
+	@Override
+	public Set<String> hkeys(String key) {
+		Jedis jedis = jedisPool.getResource();
+		Set<String> result = jedis.hkeys(key);
+		jedis.close();
+		return result;
+	}
+
+	@Override
+	public List<String> hvals(String key) {
+		Jedis jedis = jedisPool.getResource();
+		List<String> result = jedis.hvals(key);
+		jedis.close();
+		return result;
+	}
+
+	@Override
+	public Boolean hexists(String key, String field) {
+		Jedis jedis = jedisPool.getResource();
+		Boolean result = jedis.hexists(key, field);
 		jedis.close();
 		return result;
 	}

@@ -5,8 +5,11 @@ var CART = {
 			_thisInput.val(eval(_thisInput.val()) + 1);
 			$.post("/cart/update/num/"+_thisInput.attr("itemId")+"/"+_thisInput.val() + ".action",function(data){
 				CART.refreshTotalPrice();
+				CART.refreshSubTotal(_thisInput.attr("itemId"),_thisInput.val());
 			});
-		});
+
+
+        });
 		$(".decrement").click(function(){//-
 			var _thisInput = $(this).siblings("input");
 			if(eval(_thisInput.val()) == 1){
@@ -15,6 +18,7 @@ var CART = {
 			_thisInput.val(eval(_thisInput.val()) - 1);
 			$.post("/cart/update/num/"+_thisInput.attr("itemId")+"/"+_thisInput.val() + ".action",function(data){
 				CART.refreshTotalPrice();
+                CART.refreshSubTotal(_thisInput.attr("itemId"),_thisInput.val());
 			});
 		});
 		/*$(".itemnum").change(function(){
@@ -35,7 +39,13 @@ var CART = {
 			 thousandsSeparator: ',',
 			 centsLimit: 2
 		});
-	}
+	},
+    refreshSubTotal : function(itemId,num){ //重新计算总价
+		var $subTotal = $('.subTotal-' + itemId);
+		var $price = $('.price-' + itemId).text();
+        //单价
+        $subTotal.text("¥" + (parseInt($price.substring(1, $price.length))* num) + ".00");
+    }
 };
 
 $(function(){

@@ -77,7 +77,7 @@ $.fn.dropdown = function(b, c) {
 };
 var dhlist = 1;
 $(function(){
-	getAllCity();
+	// getAllCity();
 	$("#public_cate").live("mouseenter",function(){
 		var dhDivObj = $("#allSort");
 		if(dhlist==1){

@@ -78,7 +78,8 @@
 						</div>
 						<div class="pItem pPrice">
 							<div style="position: relative;">
-								<strong>¥<fmt:formatNumber groupingUsed="false" value="${cart.price / 100}" maxFractionDigits="2" minFractionDigits="2"/></strong>
+								<strong class="price-${cart.id}">¥<fmt:formatNumber groupingUsed="false" value="${cart.price / 100}" maxFractionDigits="2" minFractionDigits="2"/>
+								</strong>
 							</div>
 						</div>
 						<div class="pItem pPromotion">&nbsp;</div>
@@ -91,7 +92,8 @@
 						</div>
 						<div class="pItem pWeight">0.05kg<br></div>
 						<div class="pItem pSubtotal">
-							<span id="total_price" class="totalprice">¥<fmt:formatNumber groupingUsed="false" value="${cart.price / 100 * cart.num}" maxFractionDigits="2" minFractionDigits="2"/></span>
+							<span id="total_price" class="subTotal-${cart.id}">¥<fmt:formatNumber groupingUsed="false" value="${cart.price / 100 * cart.num}" maxFractionDigits="2" minFractionDigits="2"/>
+							</span>
 						</div>
 						<div class="pItem pInventory">现货</div>
 						<div class="pItem pOperator">

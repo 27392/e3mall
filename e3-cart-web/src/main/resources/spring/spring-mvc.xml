@@ -15,6 +15,14 @@
     <!-- 静态资源 -->
     <mvc:default-servlet-handler/>
 
+    <!-- 拦截器 -->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="cn.haohaoli.cart.interceptor.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
@@ -24,4 +32,6 @@
     <dubbo:application name="${dubbo.application.name}"/>
     <dubbo:registry protocol="zookeeper" address="${dubbo.zookeeper.address}"/>
     <dubbo:reference interface="cn.haohaoli.service.TbItemService" id="tbItemServiceImpl"/>
+    <dubbo:reference interface="cn.haohaoli.sso.service.TokenService" id="tokenServiceImpl"/>
+    <dubbo:reference interface="cn.haohaoli.cart.service.CartService" id="cartServiceImpl"/>
 </beans>

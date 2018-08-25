@@ -27,7 +27,7 @@ public class TokenServiceImpl implements TokenService {
     public E3Result getUserByToken(String token) {
         String s = jedisClient.get("SESSION:" + token);
         if (StringUtils.isEmpty(s)) {
-            return E3Result.error("用户登录已经过期");
+            return E3Result.build(201,"用户登录已经过期");
         }
         TbUser tbUser = JSONObject.parseObject(s, TbUser.class);
         jedisClient.expire("SESSION:" + token, sessionExpireTime);

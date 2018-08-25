@@ -13,8 +13,9 @@ public class E3Result implements Serializable {
     private String message;
     private Object data;
 
-    public E3Result() {
-
+    private E3Result(Integer status, String message) {
+        this.status = status;
+        this.message = message;
     }
 
     private E3Result(Integer status, String message, Object data) {
@@ -37,6 +38,10 @@ public class E3Result implements Serializable {
 
     public static E3Result error(String msg, Object data) {
         return E3Result.build(404,msg,data);
+    }
+
+    public static E3Result build(Integer status, String msg) {
+        return new E3Result(status, msg);
     }
 
     public static E3Result build(Integer status, String msg, Object data) {
