@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!-- 扫描service -->
+    <context:component-scan base-package="cn.haohaoli.order.service"/>
+
+    <!-- 使用dubbo发布服务 -->
+    <!-- 提供方应用信息 -->
+    <dubbo:application name="${dubbo.application.name}"/>
+    <dubbo:registry protocol="zookeeper" address="${dubbo.zookeeper.address}" timeout="${dubbo.zookeeper.timeout}"/>
+    <!-- dubbo协议在20885端口暴露服务 -->
+    <dubbo:protocol name="dubbo" port="${dubbo.port}"/>
+    <!-- 声明需要暴露的服务接口 -->
+    <!--<dubbo:service interface="cn.haohaoli.content.service.TbContentCategoryService" ref="tbContentCategoryServiceImpl"/>
+    <dubbo:service interface="cn.haohaoli.content.service.TbContentService" ref="tbContentServiceImpl"/>-->
+
+</beans>

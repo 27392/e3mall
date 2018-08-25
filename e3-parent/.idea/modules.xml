@@ -17,6 +17,10 @@
       <module fileurl="file://$PROJECT_DIR$/../e3-manager/e3-manager-model/e3-manager-model.iml" filepath="$PROJECT_DIR$/../e3-manager/e3-manager-model/e3-manager-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/../e3-manager/e3-manager-service/e3-manager-service.iml" filepath="$PROJECT_DIR$/../e3-manager/e3-manager-service/e3-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../e3-manager-web/e3-manager-web.iml" filepath="$PROJECT_DIR$/../e3-manager-web/e3-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../e3-order/e3-order.iml" filepath="$PROJECT_DIR$/../e3-order/e3-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../e3-order/e3-order-interface/e3-order-interface.iml" filepath="$PROJECT_DIR$/../e3-order/e3-order-interface/e3-order-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../e3-order/e3-order-service/e3-order-service.iml" filepath="$PROJECT_DIR$/../e3-order/e3-order-service/e3-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../e3-order-web/e3-order-web.iml" filepath="$PROJECT_DIR$/../e3-order-web/e3-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3-parent.iml" filepath="$PROJECT_DIR$/e3-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/../e3-portal-web/e3-portal-web.iml" filepath="$PROJECT_DIR$/../e3-portal-web/e3-portal-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../e3-search/e3-search.iml" filepath="$PROJECT_DIR$/../e3-search/e3-search.iml" />
