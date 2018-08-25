@@ -117,9 +117,19 @@ public class JedisClientPool implements JedisClient {
 	@Override
 	public Long hdel(String key, String... field) {
 		Jedis jedis = jedisPool.getResource();
-		Long result = jedis.hdel(key, field);
+        Long result = jedis.hdel(key, field);
 		jedis.close();
 		return result;
 	}
+
+    @Override
+    public Long hdels(String key) {
+        Jedis jedis = jedisPool.getResource();
+        Set<String> hkeys = jedis.hkeys(key);
+        String [] field = hkeys.toArray(new String[hkeys.size()]);
+        Long result = jedis.hdel(key, field);
+        jedis.close();
+        return result;
+    }
 
 }

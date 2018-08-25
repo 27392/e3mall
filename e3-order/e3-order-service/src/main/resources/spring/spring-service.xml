@@ -15,7 +15,6 @@
     <!-- dubbo协议在20885端口暴露服务 -->
     <dubbo:protocol name="dubbo" port="${dubbo.port}"/>
     <!-- 声明需要暴露的服务接口 -->
-    <!--<dubbo:service interface="cn.haohaoli.content.service.TbContentCategoryService" ref="tbContentCategoryServiceImpl"/>
-    <dubbo:service interface="cn.haohaoli.content.service.TbContentService" ref="tbContentServiceImpl"/>-->
+    <dubbo:service interface="cn.haohaoli.order.service.OrderService" ref="orderServiceImpl"/>
 
 </beans>

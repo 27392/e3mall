@@ -32,7 +32,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>e3-order-web</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>*.html</url-pattern>
     </servlet-mapping>
 
 </web-app>

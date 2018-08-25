@@ -19,12 +19,10 @@
         <mvc:mapping path="/user/token/*"
                      max-age="1800"
                      allowed-methods="GET"
-                     allowed-origins="http://localhost:8082,http://localhost:8085,http://localhost:8086,http://localhost:8090"/>
+                     allowed-origins="http://localhost:8082,http://localhost:8085,http://localhost:8086,http://localhost:8090,http://localhost:8092"/>
     </mvc:cors>
     
     <mvc:view-controller path="/page/register" view-name="register"/>
-    <mvc:view-controller path="/page/login" view-name="login"/>
-
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>

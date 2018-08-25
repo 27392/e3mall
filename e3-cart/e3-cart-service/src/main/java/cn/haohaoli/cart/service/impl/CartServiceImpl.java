@@ -98,4 +98,10 @@ public class CartServiceImpl implements CartService {
         jedisClient.hdel(cartPrefix + ":" + userId,itemId + "");
         return E3Result.ok();
     }
+
+    @Override
+    public E3Result clearCart(long userId) {
+        jedisClient.hdels(cartPrefix + ":" + userId);
+        return E3Result.ok();
+    }
 }

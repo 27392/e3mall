@@ -82,4 +82,11 @@ public class JedisClientCluster implements JedisClient {
 		return jedisCluster.hdel(key, field);
 	}
 
+	@Override
+	public Long hdels(String key) {
+		Set<String> hkeys = jedisCluster.hkeys(key);
+		String [] field = hkeys.toArray(new String[hkeys.size()]);
+		return jedisCluster.hdel(key, field);
+	}
+
 }

@@ -40,7 +40,7 @@
 		<input type="hidden" name="orderItems[${status.index}].price" value="${cart.price}"/>
 		<input type="hidden" name="orderItems[${status.index}].totalFee" value="${cart.price * cart.num}"/>
 		<input type="hidden" name="orderItems[${status.index}].title" value="${cart.title}"/>
-		<input type="hidden" name="orderItems[${status.index}].picPath" value="${cart.images[0]}"/>
+		<input type="hidden" name="orderItems[${status.index}].picPath" value="${cart.image}"/>
 	</c:forEach>
 	<input type="hidden" name="orderShipping.receiverName" value="入云龙"/>
 	<input type="hidden" name="orderShipping.receiverMobile" value="15800888888"/>
@@ -122,7 +122,7 @@
 				<div class="orderPInfo">
 					<div class="pItem">
 						<a href="http://localhost:8086/item/${cart.id}.html" target="_blank">
-						<img src="${cart.images[0] }" style="width: 60px;height: 60px;"/>
+						<img src="${cart.image }" style="width: 60px;height: 60px;"/>
 						</a>
 					</div>
 					<div class="pItem pGoods">

@@ -15,7 +15,14 @@
     <!-- 静态资源 -->
     <mvc:default-servlet-handler/>
 
-
+    <!-- 拦截器 -->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/order/**"/>
+            <bean class="cn.haohaoli.order.interceptor.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+    
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
@@ -24,7 +31,7 @@
     <!-- 引用dubbo服务 -->
     <dubbo:application name="${dubbo.application.name}"/>
     <dubbo:registry protocol="zookeeper" address="${dubbo.zookeeper.address}"/>
-    <!--<dubbo:reference interface="cn.haohaoli.sso.service.RegisterService" id="registerServiceImpl"/>
-    <dubbo:reference interface="cn.haohaoli.sso.service.LoginService" id="loginServiceImpl"/>
-    <dubbo:reference interface="cn.haohaoli.sso.service.TokenService" id="tokenServiceImpl"/>-->
+    <dubbo:reference interface="cn.haohaoli.cart.service.CartService" id="cartServiceImpl"/>
+    <dubbo:reference interface="cn.haohaoli.sso.service.TokenService" id="tokenServiceImpl"/>
+    <dubbo:reference interface="cn.haohaoli.order.service.OrderService" id="orderServiceImpl"/>
 </beans>

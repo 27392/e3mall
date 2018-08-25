@@ -35,4 +35,11 @@ public interface JedisClient {
 
 	Long hdel(String key, String... field);
 
+	/**
+	 * 批量删除key
+	 * @param key
+	 * @return
+	 */
+	Long hdels(String key);
+
 }
