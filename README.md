@@ -20,4 +20,5 @@
 - **单点登录系统**：为多个系统之间提供用户登录凭证以及查询登录用户的信息。
 
 ### 系统架构
+
 ![image](https://github.com/ZzXxL1994/e3mall/raw/master/jiagou.png)
